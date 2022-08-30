@@ -4,6 +4,7 @@ The AluTrace Project was a project funded by the german Ministry of Economics, L
 The project consortium, consisting of the [Fraunhofer Institute for High-Speed Dynamics, Ernst-Mach-Institut, EMI](https://www.emi.fraunhofer.de/en/business-units/automotive/research/digitales-datenmanagement.html), [Fraunhofer Institute for 
 Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research Institute for Precious Metals and Metal Chemistry](https://www.fem-online.de/) used legacy data and supplemented it specifically to generate RDF data. The RDF data is provided decentrally via the very first implementation of the [Materials Data Space(R)](https://www.materials.fraunhofer.de/de/strategische-initativen/materials-data-space-/aktuelles-/erste-mds-implementierung-.html).  
 
+### Deliverables
 This repository contains the deliverables for this project, including 
 - the RDF data,   
 - the SPARQL queries written for the project along with,
@@ -19,8 +20,8 @@ Other ressources used in the project include:
 - andere Ontologien?
 
 ### Related Literature
--   Focus on the data space implementation: https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf
--   Focus on the design algorithm (in german): https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/
+-   Focus on the data space implementation: [https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf](The AluTrace Use Case: Harnessing Lightweight Design Potentials via the Materials Data Space(R))
+-   Focus on the design algorithm (in german): [https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/](Leichtbau: Datenvernetzung für Additive Fertigung)
 -   
 
 
