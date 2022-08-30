@@ -9,9 +9,8 @@ This repository contains the deliverables for this project, including
 - src: 
   - the RDF data,   
   - the SPARQL queries written for the project along with the returns of those SPARQL queries, 
-  - supplementary files created for the Fraunhofer IWM workflow (**Link needed*) such as 
-    - process graphs as templates for the individual RDF data sets
-    - excel templates used to fill process graphs with data 
+  - process graphs as templates for the individual RDF data sets used in the Fraunhofer IWM workflow
+
 - doc:
   - the final report, 
   - a supporting set of presentation slides.
