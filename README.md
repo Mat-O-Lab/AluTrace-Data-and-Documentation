@@ -6,8 +6,8 @@ Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research In
 
 This repository contains the deliverables for this project, including 
 - the RDF data,   
-- SPARQL queries written for the project along with,
-- the returns of the SPARQL queries, 
+- the SPARQL queries written for the project along with,
+- the returns of those SPARQL queries, 
 - the final report, 
 - an supporting set of presentation slides.
 
