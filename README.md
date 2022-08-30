@@ -11,6 +11,18 @@ This repository contains the deliverables for this project, including
 - the final report, 
 - an supporting set of presentation slides.
 
+### Ressources
+Other ressources used in the project include:
+- BFO2
+- BWMD Ontology
+- LPBFO
+- andere Ontologien?
+
+### Related Literature
+-   Focus on the data space implementation: https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf
+-   Focus on the design algorithm (in german): https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/
+-   
+
 
 
 
