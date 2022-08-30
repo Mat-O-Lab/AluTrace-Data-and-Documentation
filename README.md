@@ -9,7 +9,7 @@ This repository contains the deliverables for this project, including
 - src: 
   - the RDF data,   
   - the SPARQL queries written for the project along with the returns of those SPARQL queries, 
-  - process graphs as templates for the individual RDF data sets used in the Fraunhofer IWM workflow
+  - the process graphs as templates for the individual RDF data sets used in the Fraunhofer IWM workflow
 
 - doc:
   - the final report, 
