@@ -4,27 +4,29 @@ The AluTrace Project was a project funded by the german Ministry of Economics, L
 The project consortium, consisting of the [Fraunhofer Institute for High-Speed Dynamics, Ernst-Mach-Institut, EMI](https://www.emi.fraunhofer.de/en/business-units/automotive/research/digitales-datenmanagement.html), [Fraunhofer Institute for 
 Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research Institute for Precious Metals and Metal Chemistry](https://www.fem-online.de/) used legacy data and supplemented it specifically to generate RDF data. The RDF data is provided decentrally via the very first implementation of the [Materials Data Space](https://www.materials.fraunhofer.de/de/strategische-initativen/materials-data-space-/aktuelles-/erste-mds-implementierung-.html).  
 
-### Deliverables
+## Deliverables
 This repository contains the deliverables for this project, including 
-- the RDF data,   
-- the SPARQL queries written for the project along with,
-- the returns of those SPARQL queries, 
-- the final report, 
-- an supporting set of presentation slides.
+- src: 
+  - the RDF data,   
+  - the SPARQL queries written for the project along with,
+  - the returns of those SPARQL queries, 
+- doc:
+  - the final report, 
+  - an supporting set of presentation slides.
 
-### Ressources
+## Ressources
 Other ressources used in the project include:
 - BFO2
 - BWMD Ontology
 - LPBFO
 - andere Ontologien?
 
-### Related Literature
+## Related Literature
 -   Focus on the data space implementation: [Position Paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf), [Lightning Talk](https://www.youtube.com/watch?v=4FoApZMCrSw)
 -   Focus on the design algorithm: [Technical Article (German)](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/)
 
 
-### Contributors (alphabetically)
+## Contributors (alphabetically)
 
 - Valerie Friedmann, Fraunhofer IWM  
 - Michael Dlugosch, Fraunhofer EMI  
@@ -37,7 +39,7 @@ Other ressources used in the project include:
 - Dario Tiberto, fem  
 - Elena Garcia Trelles, Fraunhofer IWM  
 
-### Contact
+## Contact
 
 **Martin Huschka**, Michael Dlugosch, Klaus Hoschke, Sankalp Patil  
 Fraunhofer-Institut für Kurzzeitdynamik, Ernst-Mach-Institut, EMI  
