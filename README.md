@@ -26,22 +26,21 @@ Other ressources used in the project include:
 
 ### Contributors (alphabetically)
 
-Valerie Friedmann, Fraunhofer IWM  
-Michael Dlugosch, Fraunhofer EMI  
-Klaus Hoschke, Fraunhofer EMI  
-Martin Huschka, Fraunhofer EMI  
-Ulrich Klotz, fem  
-Sankalp Patil, Fraunhofer EMI  
-Johannes Preußner, Fraunhofer IWM  
-Christoph Schweizer, Fraunhofer IWM  
-Dario Tiberto, fem  
-Elena Garcia Trelles, Fraunhofer IWM  
+- Valerie Friedmann, Fraunhofer IWM  
+- Michael Dlugosch, Fraunhofer EMI  
+- Klaus Hoschke, Fraunhofer EMI  
+- Martin Huschka, Fraunhofer EMI  
+- Ulrich Klotz, fem  
+- Sankalp Patil, Fraunhofer EMI  
+- Johannes Preußner, Fraunhofer IWM  
+- Christoph Schweizer, Fraunhofer IWM  
+- Dario Tiberto, fem  
+- Elena Garcia Trelles, Fraunhofer IWM  
 
 ### Contact
 
 **Martin Huschka**, Michael Dlugosch, Klaus Hoschke, Sankalp Patil  
-Fraunhofer-Institut für Kurzzeitdynamik  
-Ernst-Mach-Institut EMI  
+Fraunhofer-Institut für Kurzzeitdynamik, Ernst-Mach-Institut, EMI  
 Ernst-Zermelo-Str. 4, 79104 Freiburg  
 Tel. +49 761 / 2714-458  
 martin.huschka@emi.fraunhofer.de  
