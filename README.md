@@ -20,8 +20,8 @@ Other ressources used in the project include:
 - andere Ontologien?
 
 ### Related Literature
--   Focus on the data space implementation: [https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf](The AluTrace Use Case: Harnessing Lightweight Design Potentials via the Materials Data Space(R))
--   Focus on the design algorithm (in german): [https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/](Leichtbau: Datenvernetzung für Additive Fertigung)
+-   Focus on the data space implementation: [The AluTrace Use Case: Harnessing Lightweight Design Potentials via the Materials Data Space(R)](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf)
+-   Focus on the design algorithm (in german): [Leichtbau: Datenvernetzung für Additive Fertigung ](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/)
 -   
 
 
