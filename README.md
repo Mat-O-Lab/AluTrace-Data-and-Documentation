@@ -26,40 +26,40 @@ Other ressources used in the project include:
 
 ### Contributors (alphabetically)
 
-Valerie Friedmann, Fraunhofer IWM
-Michael Dlugosch, Fraunhofer EMI  
-Klaus Hoschke, Fraunhofer EMI
-Martin Huschka, Fraunhofer EMI
-Ulrich Klotz, fem
-Sankalp Patil, Fraunhofer EMI
-Johannes Preußner, Fraunhofer IWM
-Christoph Schweizer, Fraunhofer IWM
-Dario Tiberto, fem
-Elena Garcia Trelles, Fraunhofer IWM
+Valerie Friedmann, Fraunhofer IWM //
+Michael Dlugosch, Fraunhofer EMI  //
+Klaus Hoschke, Fraunhofer EMI // 
+Martin Huschka, Fraunhofer EMI //
+Ulrich Klotz, fem //
+Sankalp Patil, Fraunhofer EMI //
+Johannes Preußner, Fraunhofer IWM //
+Christoph Schweizer, Fraunhofer IWM //
+Dario Tiberto, fem //
+Elena Garcia Trelles, Fraunhofer IWM //
 
 ### Contact
 
-**Martin Huschka**, Michael Dlugosch, Klaus Hoschke, Sankalp Patil
-Fraunhofer-Institut für Kurzzeitdynamik
-Ernst-Mach-Institut EMI
-Ernst-Zermelo-Str. 4, 79104 Freiburg
-Tel. +49 761 / 2714-458
-martin.huschka@emi.fraunhofer.de
-www.emi.fraunhofer.de
+**Martin Huschka**, Michael Dlugosch, Klaus Hoschke, Sankalp Patil //
+Fraunhofer-Institut für Kurzzeitdynamik //
+Ernst-Mach-Institut EMI //
+Ernst-Zermelo-Str. 4, 79104 Freiburg //
+Tel. +49 761 / 2714-458 //
+martin.huschka@emi.fraunhofer.de //
+www.emi.fraunhofer.de //
 
-**Christoph Schweizer**, Valerie Friedmann, Johannes Preußner, Elena Garcia Trelles 
-Fraunhofer-Institut für Werkstoffmechanik IWM
-Wöhlerstr. 11, 79108 Freiburg
-Tel. +49 761 / 5142-382
-christoph.schweizer@iwm.fraunhofer.de
-www.iwm.fraunhofer.de
+**Christoph Schweizer**, Valerie Friedmann, Johannes Preußner, Elena Garcia Trelles  //
+Fraunhofer-Institut für Werkstoffmechanik IWM //
+Wöhlerstr. 11, 79108 Freiburg //
+Tel. +49 761 / 5142-382 //
+christoph.schweizer@iwm.fraunhofer.de //
+www.iwm.fraunhofer.de //
 
-**Ulrich Klotz**, Dario Tiberto
-fem Forschungsinstitut Edelmetalle + Metallchemie
-Katharinenstr. 17, 73525 Schwäbisch Gmünd
-Tel. +49 7171 / 1006-700
-klotz@fem-online.de
-www.fem-online.de
+**Ulrich Klotz**, Dario Tiberto //
+fem Forschungsinstitut Edelmetalle + Metallchemie //
+Katharinenstr. 17, 73525 Schwäbisch Gmünd //
+Tel. +49 7171 / 1006-700 //
+klotz@fem-online.de //
+www.fem-online.de //
 
 
 
