@@ -27,6 +27,8 @@ Other ressources used in the project include:
 -   Focus on the data space implementation: [Position Paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf), [Lightning Talk](https://www.youtube.com/watch?v=4FoApZMCrSw)
 -   Focus on the design algorithm: [Technical Article (German)](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/)
 
+## Evaluation of FAIRness of this data
+https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c52e8cf0d3def29462d8cb5
 
 ## Contributors (alphabetically)
 
