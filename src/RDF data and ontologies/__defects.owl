@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#"
+     xml:base="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects"
+     xmlns:graph_designer="https://www.materials.fraunhofer.de/ontologies/graph_designer#"
+     xmlns:def="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:mid="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects">
+        <owl:versionIRI rdf:resource="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects/1.0.0"/>
+        <owl:imports rdf:resource="https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology/-/raw/v1.0.10/BWMD_mid.owl"/>
+        <mid:BWMD_00834>Elena G. Trelles (IWM)</mid:BWMD_00834>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00327 -->
+
+    <rdf:Description rdf:about="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00327">
+        <rdfs:subPropertyOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00340"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00060 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00060">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00168"/>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">measurement of a defect size in any possible form (area, srt(area),length)</rdfs:comment>
+        <rdfs:label xml:lang="en">DefectSize</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00061 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00061">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00168"/>
+        <rdfs:comment xml:lang="en">number of defects found in an investigated fracture surface</rdfs:comment>
+        <rdfs:label xml:lang="en">DefectCount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00062 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00062">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00168"/>
+        <rdfs:comment xml:lang="en">position of defect related to the surface of the investigated specimen</rdfs:comment>
+        <rdfs:label xml:lang="en">DefectPosition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00063 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00063">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00168"/>
+        <rdfs:comment xml:lang="en">initial crack length leading to crack propagation, typically the size of a defect serving as crack starter is used</rdfs:comment>
+        <rdfs:label xml:lang="en">InitialCrackLength</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00064 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00064">
+        <rdfs:subClassOf rdf:resource="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00063"/>
+        <rdfs:comment xml:lang="en">fictive initial crack length inferred from the root square area of a defect evaluated from the fracture surface of s specimen</rdfs:comment>
+        <rdfs:label xml:lang="de">InferredInitialCrackLength</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00065 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00065">
+        <rdfs:subClassOf rdf:resource="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00063"/>
+        <rdfs:comment xml:lang="en">fictive initial crack length inferred from the root square area of a defect evaluated from the fracture surface of s specimen following Murakami´s method</rdfs:comment>
+        <rdfs:label xml:lang="de">InferredInitialCrackLengthMurakami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00066 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00066">
+        <rdfs:subClassOf rdf:resource="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00060"/>
+        <rdfs:comment xml:lang="en">root square area of a defect evaluated from the fracture surface of a specimen</rdfs:comment>
+        <rdfs:label xml:lang="en">RootSquareDefectArea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00067 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00067">
+        <rdfs:subClassOf rdf:resource="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00060"/>
+        <rdfs:comment xml:lang="en">root square area of a defect evaluated from the fracture surface of a specimen following Murakami´s method</rdfs:comment>
+        <rdfs:label xml:lang="en">RootSquareDefectAreaMurakami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00068 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00068">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00140"/>
+        <rdfs:comment xml:lang="en">fracture mode observed from the evaluated fracture surface (mode I, mode II or mixed mode)</rdfs:comment>
+        <rdfs:label xml:lang="en">FractureMode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00069 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00069">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00140"/>
+        <rdfs:comment xml:lang="en">type of defect found when performing a defect analysis base on the fracture surface of a specimen</rdfs:comment>
+        <rdfs:label xml:lang="en">DefectType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00070 -->
+
+    <owl:Class rdf:about="http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#AT_00070">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00133"/>
+        <rdfs:comment xml:lang="en">Process consisting of evaluating the defects of a fracture surface</rdfs:comment>
+        <rdfs:label xml:lang="de">DefectAnalysis</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

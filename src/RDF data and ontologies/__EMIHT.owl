@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#"
+     xml:base="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology"
+     xmlns:graph_designer="https://www.materials.fraunhofer.de/ontologies/graph_designer#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:mid="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology">
+        <owl:versionIRI rdf:resource="https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/LPBFO/-/raw/emiHT/EMIHT_ontology.owl"/>
+        <owl:imports rdf:resource="https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology/-/raw/master/BWMD_ontology_mid.owl"/>
+        <owl:versionInfo xml:lang="en">v1.0.0</owl:versionInfo>
+        <mid:BWMD_00834 xml:lang="en">Martin Huschka (Fraunhofer EMI)</mid:BWMD_00834>
+        <rdfs:comment xml:lang="en">The EMIHT_ontology can be used to describe Heat Treatment performed at EMI using the digital workflow tools provded by IWM (process graphs etc.).</rdfs:comment>
+        <rdfs:comment xml:lang="en">Contact:
+Martin Huschka 
+Fraunhofer Institute for High-Speed Dynamics , Ernst-Mach-Institut, EMI
+Ernst-Zermelo-Strasse 4, 79104 Freiburg , Germany
+Martin.Huschka@EMI.Fraunhofer.de</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00001 -->
+
+    <owl:Class rdf:about="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00001">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00117"/>
+        <rdfs:comment xml:lang="en">Any kind of annealing process as defined by DIN 8580.</rdfs:comment>
+        <rdfs:comment xml:lang="en">DIN 8580</rdfs:comment>
+        <rdfs:label xml:lang="en">Treating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00002 -->
+
+    <owl:Class rdf:about="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00002">
+        <rdfs:subClassOf rdf:resource="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00001"/>
+        <rdfs:comment xml:lang="en">Any kind of Heat Treatment according to DIN EN 10052.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">DIN EN 10052</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">HeatTreatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00003 -->
+
+    <owl:Class rdf:about="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00003">
+        <rdfs:subClassOf rdf:resource="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00002"/>
+        <rdfs:isDefinedBy xml:lang="en">DIN EN 10052</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="en">Stress relief annealing is the heat treatment of components in order to minimize the stresses in the material.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">StressReliefAnnealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00004 -->
+
+    <owl:Class rdf:about="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00004">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00206"/>
+        <rdfs:isDefinedBy xml:lang="en">The duration of the stress relief annealing process.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">StressReliefAnnealingDuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00005 -->
+
+    <owl:Class rdf:about="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00005">
+        <rdfs:subClassOf rdf:resource="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00004"/>
+        <rdfs:isDefinedBy xml:lang="en">The duration of the stress relief annealing process as supposed.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">StressReliefAnnealingDurationAsSupposed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00006 -->
+
+    <owl:Class rdf:about="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00006">
+        <rdfs:subClassOf rdf:resource="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#BWMD_00109"/>
+        <rdfs:comment xml:lang="en">The temperature of the stress relief annealing process.</rdfs:comment>
+        <rdfs:label xml:lang="en">StressReliefAnnealingTemperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00007 -->
+
+    <owl:Class rdf:about="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00007">
+        <rdfs:subClassOf rdf:resource="https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00006"/>
+        <rdfs:comment xml:lang="en">The temperature of the stress relief annealing process as supposed</rdfs:comment>
+        <rdfs:label xml:lang="en">StressReliefAnnealingTemperatureAsSupposed</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

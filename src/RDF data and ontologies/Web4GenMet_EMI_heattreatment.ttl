@@ -1,14 +1,7 @@
 @prefix : <https://www.emi.fraunhofer.de/ontologies/LPBFO#> .
-@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix emiLPBF: <https://www.emi.fraunhofer.de/data/AluTrace/emiLPBF/> .
 @prefix mid: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix emiHTdata: <https://www.emi.fraunhofer.de/data/AluTrace/emiHT/> .
-@prefix path: <http://www.ontotext.com/path#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+separated+from+BuildPlatform_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
   a :LPBFO_00012;
