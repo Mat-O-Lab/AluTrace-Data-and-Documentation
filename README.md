@@ -32,16 +32,16 @@ https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c
 
 ## Contributors (alphabetically)
 
-- Valerie Friedmann, Fraunhofer IWM  
-- Michael Dlugosch, Fraunhofer EMI  
-- Klaus Hoschke, Fraunhofer EMI  
-- Martin Huschka, Fraunhofer EMI  
-- Ulrich Klotz, fem  
-- Sankalp Patil, Fraunhofer EMI  
-- Johannes Preußner, Fraunhofer IWM  
-- Christoph Schweizer, Fraunhofer IWM  
-- Dario Tiberto, fem  
-- Elena Garcia Trelles, Fraunhofer IWM  
+- Valerie Friedmann, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)    
+- Michael Dlugosch, [Fraunhofer EMI](https://www.emi.fraunhofer.de)  
+- Klaus Hoschke, [Fraunhofer EMI](https://www.emi.fraunhofer.de)
+- Martin Huschka, [Fraunhofer EMI](https://www.emi.fraunhofer.de) 
+- Ulrich Klotz, [fem](https://www.fem-online.de)    
+- Sankalp Patil, [Fraunhofer EMI](https://www.emi.fraunhofer.de)   
+- Johannes Preußner, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)  
+- Christoph Schweizer, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)   
+- Dario Tiberto, [fem](https://www.fem-online.de)  
+- Elena Garcia Trelles, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)  
 
 ## Contact
 
@@ -49,19 +49,19 @@ https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c
 Fraunhofer-Institut für Kurzzeitdynamik, Ernst-Mach-Institut, EMI  
 Ernst-Zermelo-Str. 4, 79104 Freiburg  
 *first-name* [.] *last-name* [at] emi [dot] fraunhofer [dot] de  
-www.emi.fraunhofer.de  
+[www.emi.fraunhofer.de](https://www.emi.fraunhofer.de) 
 
 **Christoph Schweizer**, Valerie Friedmann, Johannes Preußner, Elena Garcia Trelles  
 Fraunhofer-Institut für Werkstoffmechanik IWM  
 Wöhlerstr. 11, 79108 Freiburg  
 *first-name* [.] *last-name* [at] iwm [dot] fraunhofer [dot] de  
-www.iwm.fraunhofer.de  
+[www.iwm.fraunhofer.de](https://www.iwm.fraunhofer.de) 
 
 **Ulrich Klotz**, Dario Tiberto  
 fem Forschungsinstitut Edelmetalle + Metallchemie  
 Katharinenstr. 17, 73525 Schwäbisch Gmünd  
 *last-name* [at] fem-online [dot] de  
-www.fem-online.de  
+[www.fem-online.de ](https://www.fem-online.de) 
 
 
 
