@@ -35,6 +35,7 @@ https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c
 
 - Valerie Friedmann, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)    
 - Michael Dlugosch, [Fraunhofer EMI](https://www.emi.fraunhofer.de)  
+- Elena Garcia Trelles, [Fraunhofer IWM](https://www.iwm.fraunhofer.de) 
 - Klaus Hoschke, [Fraunhofer EMI](https://www.emi.fraunhofer.de)
 - Martin Huschka, [Fraunhofer EMI](https://www.emi.fraunhofer.de) 
 - Ulrich Klotz, [fem](https://www.fem-online.de)    
@@ -42,7 +43,6 @@ https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c
 - Johannes Preußner, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)  
 - Christoph Schweizer, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)   
 - Dario Tiberto, [fem](https://www.fem-online.de)  
-- Elena Garcia Trelles, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)  
 
 ## Contact
 
