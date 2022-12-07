@@ -48,19 +48,19 @@ https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c
 **Martin Huschka**, Michael Dlugosch, Klaus Hoschke, Sankalp Patil  
 Fraunhofer-Institut für Kurzzeitdynamik, Ernst-Mach-Institut, EMI  
 Ernst-Zermelo-Str. 4, 79104 Freiburg  
-**first-name** [.] **last-name** [at] emi [dot] fraunhofer [dot] de  
+* *first-name* * [.] * *last-name* * [at] emi [dot] fraunhofer [dot] de  
 www.emi.fraunhofer.de  
 
 **Christoph Schweizer**, Valerie Friedmann, Johannes Preußner, Elena Garcia Trelles  
 Fraunhofer-Institut für Werkstoffmechanik IWM  
 Wöhlerstr. 11, 79108 Freiburg  
-**first-name** [.] **last-name** [at] iwm [dot] fraunhofer [dot] de  
+* *first-name* * [.] * *last-name* * [at] iwm [dot] fraunhofer [dot] de  
 www.iwm.fraunhofer.de  
 
 **Ulrich Klotz**, Dario Tiberto  
 fem Forschungsinstitut Edelmetalle + Metallchemie  
 Katharinenstr. 17, 73525 Schwäbisch Gmünd  
-**last-name** [at] fem-online [dot] de  
+* *last-name* * [at] fem-online [dot] de  
 www.fem-online.de  
 
 
