@@ -15,7 +15,7 @@ Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research In
 ## Deliverables
 This repository contains the deliverables for this project, including 
 - src: 
-  - the RDF data, \[ [What does it contain?](src/RDF data and ontologies/README.md) \]
+  - the RDF data, <[> [What does it contain?](src/RDF data and ontologies/README.md) 
   - the SPARQL queries written for the project along with the returns of those SPARQL queries, [What do the queries describe?](src/SPARQL queries and results)
   - the process graphs as templates for the individual RDF data set, [What is a process graph?](src/process models of RDF data/README.md)
 
