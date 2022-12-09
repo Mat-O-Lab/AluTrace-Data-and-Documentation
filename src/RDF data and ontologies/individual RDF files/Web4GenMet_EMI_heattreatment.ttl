@@ -1,0 +1,597 @@
+@prefix : <https://www.emi.fraunhofer.de/ontologies/LPBFO#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mid: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+separated+from+BuildPlatform_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts separated from BuildPlatform";
+  mid:BWMD_00323 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>;
+  mid:BWMD_00337 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Stress-Relief+Annealing+of+Additive+Manufactured+Parts_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+intended+for+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts intended for Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Stress-Relief+Annealing+of+Additive+Manufactured+Parts_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00003>;
+  rdfs:label "Stress-Relief Annealing of Additive Manufactured Parts";
+  mid:BWMD_00331 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>;
+  mid:BWMD_00325 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Timestemp+of+Stress-Relief+Annealing+Process_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>;
+  mid:BWMD_00327 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Anonymized+Person+Name_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>;
+  mid:BWMD_00339 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Process+Paramters+of+Stress-Relief+Annealing+As+Supposed_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>;
+  <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#namespace> <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#__default__%3Dhttps%3A%2F%2Fwww.emi.fraunhofer.de%2Fontologies%2FEMIHT_ontology_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Anonymized+Internal+ID+of+the+Operating+Person_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a mid:BWMD_00029;
+  rdfs:label "Anonymized Internal ID of the Operating Person";
+  mid:BWMD_00313 "emi_adm_ap" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Anonymized+Person+Name_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a :LPBFO_00035;
+  rdfs:label "Anonymized Person Name";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Anonymized+Internal+ID+of+the+Operating+Person_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Duration+of+Stress-Relief+Annealing+As+Supposed_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00005>;
+  rdfs:label "Duration of Stress-Relief Annealing As Supposed";
+  mid:BWMD_00312 "h";
+  mid:BWMD_00314 2.0E0 .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>
+  a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#HeatTreatmentID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>
+  a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "T5" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Material+Name+of+Part+Set_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>
+  a mid:BWMD_00342;
+  rdfs:label "Material Name of Part Set";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#MaterialStateID_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>
+  a :LPBFO_00514;
+  rdfs:label "MaterialStateID";
+  mid:BWMD_00313 "AHH6" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing";
+  mid:BWMD_00313 "XY 45° Oberfläche 2h 300 °C" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing";
+  mid:BWMD_00313 "X 0° 2h 300 °C" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing";
+  mid:BWMD_00313 "XY 45° 2h 300 °C" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing";
+  mid:BWMD_00313 "Z 90° 2h 300 °C" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing";
+  mid:BWMD_00313 "XY 45° Oberfläche 2h 300 °C" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing";
+  mid:BWMD_00313 "X 0° 2h 300 °C" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing";
+  mid:BWMD_00313 "XY 45° 2h 300 °C" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing";
+  mid:BWMD_00313 "Z 90° 2h 300 °C" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID after Stress-Relief Annealing" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing";
+  mid:BWMD_00313 "XY 45° Oberfläche 2h 300 °C_preHT" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing";
+  mid:BWMD_00313 "X 0° 2h 300 °C_preHT" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing";
+  mid:BWMD_00313 "XY 45° 2h 300 °C_preHT" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing";
+  mid:BWMD_00313 "Z 90° 2h 300 °C_preHT" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing";
+  mid:BWMD_00313 "XY 45° Oberfläche 2h 300 °C_preHT" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing";
+  mid:BWMD_00313 "X 0° 2h 300 °C_preHT" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing";
+  mid:BWMD_00313 "XY 45° 2h 300 °C_preHT" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing";
+  mid:BWMD_00313 "Z 90° 2h 300 °C_preHT" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+before+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>
+  a :LPBFO_00043;
+  rdfs:label "PartSetID before Stress-Relief Annealing" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Process+Paramters+of+Stress-Relief+Annealing+As+Supposed_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a mid:BWMD_00009;
+  rdfs:label "Process Paramters of Stress-Relief Annealing As Supposed";
+  mid:BWMD_00323 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Duration+of+Stress-Relief+Annealing+As+Supposed_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Temperature+of+Stress-Relief+Annealing+As+Supposed_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Temperature+of+Stress-Relief+Annealing+As+Supposed_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EMIHT_00007>;
+  rdfs:label "Temperature of Stress-Relief Annealing As Supposed";
+  mid:BWMD_00312 "°C";
+  mid:BWMD_00314 3.0E2 .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#ProcessEndDateTime+%28tt.mm.jjjj+hh%3Amm%3Ass%29_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a mid:BWMD_00065;
+  rdfs:label "ProcessEndDateTime (tt.mm.jjjj hh:mm:ss)";
+  mid:BWMD_00343 "2017-05-12T08:30:00"^^xsd:dateTime .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#ProcessStartDateTime+%28tt.mm.jjj+hh%3Amm%3Ass%29_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a mid:BWMD_00261;
+  rdfs:label "ProcessStartDateTime (tt.mm.jjj hh:mm:ss)";
+  mid:BWMD_00343 "2017-05-13T10:45:00"^^xsd:dateTime .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_10> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_11> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_12> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_5> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_6> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_7> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_8> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>
+  a :LPBFO_00012;
+  rdfs:label "Set of AM Parts after Stress-Relief Annealing";
+  mid:BWMD_00319 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#PartSetID+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9>;
+  mid:BWMD_00322 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#EngineeringMaterial_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_9> .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#__default__%3Dhttps%3A%2F%2Fwww.emi.fraunhofer.de%2Fontologies%2FEMIHT_ontology_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#__namespaces__>;
+  rdfs:label "__default__=https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology" .
+
+<https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Timestemp+of+Stress-Relief+Annealing+Process_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>
+  a mid:BWMD_00038;
+  rdfs:label "Timestemp of Stress-Relief Annealing Process";
+  mid:BWMD_00323 <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#ProcessEndDateTime+%28tt.mm.jjjj+hh%3Amm%3Ass%29_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5>,
+    <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#ProcessStartDateTime+%28tt.mm.jjj+hh%3Amm%3Ass%29_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5> .
