@@ -29,7 +29,7 @@ Other ressources used in the project include:
 **Domain-level Ontologies**  
 - [BWMD_domain](https://matportal.org/ontologies/BWMD-DOMAIN)
 - [LPBFO](https://matportal.org/ontologies/LPBFO)
-- emiHT 
+- [emiHT](https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/LPBFO/-/raw/emiHT/EMIHT_ontology.owl) 
 - fatigue
 - defects
 
