@@ -1,1 +1,0 @@
-here explain what a process graph is and how to open it and what was the workflow
