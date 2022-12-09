@@ -20,9 +20,9 @@ This repository contains the deliverables for this project, including
 ## Ressources
 Other ressources used in the project include:  
 **Top-level Ontology**  
-- [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)
+- [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
 **Mid-level Ontology**  
-- [BWMD_mid](https://matportal.org/ontologies/BWMD-MID)
+- [BWMD_mid](https://matportal.org/ontologies/BWMD-MID)  
 **Domain-level Ontologies**  
 - [BWMD_domain](https://matportal.org/ontologies/BWMD-DOMAIN)
 - [LPBFO](https://matportal.org/ontologies/LPBFO)
