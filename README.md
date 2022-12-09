@@ -18,7 +18,7 @@ This repository contains the deliverables for this project, including
   - a supporting set of presentation slides.
 
 ## Ressources
-Other ressources used in the project include:  
+Ontological ressources used in the project include:  
 
 **Top-level Ontology**  
 - [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
