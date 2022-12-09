@@ -11,7 +11,7 @@ This repository contains the deliverables for this project, including
 - src: 
   - the RDF data,   
   - the SPARQL queries written for the project along with the returns of those SPARQL queries, 
-  - the process graphs as templates for the individual RDF data sets used in the Fraunhofer IWM workflow
+  - the process graphs as templates for the individual RDF data sets 
 
 - doc:
   - the final report, 
@@ -19,9 +19,16 @@ This repository contains the deliverables for this project, including
 
 ## Ressources
 Other ressources used in the project include:
-- BFO2
-- BWMD Ontology
-- LPBFO
+Top-level Ontology
+- [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)
+Mid-level Ontology
+- [BWMD_mid](https://matportal.org/ontologies/BWMD-MID)
+Domain-level Ontologies
+- [BWMD_domain](https://matportal.org/ontologies/BWMD-DOMAIN)
+- [LPBFO](https://matportal.org/ontologies/LPBFO)
+- emiHT 
+- fatigue
+- defects
 
 ## Related Literature
 -   Focus on the data space implementation: [Position Paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf), [Lightning Talk](https://www.youtube.com/watch?v=4FoApZMCrSw)
