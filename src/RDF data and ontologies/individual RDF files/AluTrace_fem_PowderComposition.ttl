@@ -1,0 +1,189 @@
+@prefix : <https://www.emi.fraunhofer.de/ontologies/LPBFO#> .
+@prefix schema: <http://schema.org/> .
+@prefix def: <http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix emiLPBF: <https://www.emi.fraunhofer.de/data/AluTrace/emiLPBF/> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix mid: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix emiHTdata: <https://www.emi.fraunhofer.de/data/AluTrace/emiHT/> .
+@prefix path: <http://www.ontotext.com/path#> .
+@prefix fatigue: <http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/fatigue#> .
+@prefix graph_designer: <https://www.materials.fraunhofer.de/ontologies/graph_designer#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix emislm: <https://www.emi.fraunhofer.de/ontologies/EMISLM_ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix bwmd_merged: <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix domain: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/domain#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+:EngineeringMaterial_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 :HeatTreatmentID_0cb56232-80ff-41b4-8ea6-b55eacd4a940, :MaterialName_1_0cb56232-80ff-41b4-8ea6-b55eacd4a940,
+    :MaterialStateID_1_0cb56232-80ff-41b4-8ea6-b55eacd4a940;
+  mid:BWMD_00336 :MaterialVolumeStructureInfo_0cb56232-80ff-41b4-8ea6-b55eacd4a940 .
+
+:HeatTreatmentID_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "none" .
+
+:MaterialName_1_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00342;
+  rdfs:label "MaterialName_1";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+:MaterialStateID_1_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00356;
+  rdfs:label "MaterialStateID_1";
+  mid:BWMD_00313 "Pulver 1" .
+
+:MaterialVolumeStructureInfo_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00226;
+  rdfs:label "MaterialVolumeStructureInfo";
+  mid:BWMD_00323 :ChemicalComposition_0cb56232-80ff-41b4-8ea6-b55eacd4a940, <https://www.emi.fraunhofer.de/ontologies/LPBFO#Data+File_0cb56232-80ff-41b4-8ea6-b55eacd4a940>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Hydrogen+Content_0cb56232-80ff-41b4-8ea6-b55eacd4a940>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Oxygen+Content_0cb56232-80ff-41b4-8ea6-b55eacd4a940> .
+
+:BaseElementOfComposition_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00180;
+  rdfs:label "BaseElementOfComposition";
+  mid:BWMD_00314 9.044E1;
+  mid:BWMD_00318 "Al" .
+
+:ChemicalComposition_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00135;
+  rdfs:label "ChemicalComposition";
+  mid:BWMD_00323 :BaseElementOfComposition_0cb56232-80ff-41b4-8ea6-b55eacd4a940, :WeightFraction_0cb56232-80ff-41b4-8ea6-b55eacd4a940 .
+
+:WeightFraction_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00139;
+  rdfs:label "WeightFraction";
+  mid:BWMD_00323 :ChemicalElementSymbol_0cb56232-80ff-41b4-8ea6-b55eacd4a940_1, :ChemicalElementSymbol_0cb56232-80ff-41b4-8ea6-b55eacd4a940_2,
+    :ChemicalElementSymbol_0cb56232-80ff-41b4-8ea6-b55eacd4a940_3 .
+
+:ChemicalElementSymbol_0cb56232-80ff-41b4-8ea6-b55eacd4a940_1 a mid:BWMD_00105;
+  rdfs:label "ChemicalElementSymbol";
+  mid:BWMD_00312 "%";
+  mid:BWMD_00314 "9,00"^^xsd:double;
+  mid:BWMD_00318 "Si" .
+
+:ChemicalElementSymbol_0cb56232-80ff-41b4-8ea6-b55eacd4a940_2 a mid:BWMD_00105;
+  rdfs:label "ChemicalElementSymbol";
+  mid:BWMD_00312 "%";
+  mid:BWMD_00314 "0,16"^^xsd:double;
+  mid:BWMD_00318 "Fe" .
+
+:ChemicalElementSymbol_0cb56232-80ff-41b4-8ea6-b55eacd4a940_3 a mid:BWMD_00105;
+  rdfs:label "ChemicalElementSymbol";
+  mid:BWMD_00312 "%";
+  mid:BWMD_00314 "0,35"^^xsd:double;
+  mid:BWMD_00318 "Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/LPBFO#Data+File_0cb56232-80ff-41b4-8ea6-b55eacd4a940>
+  a mid:BWMD_00032;
+  rdfs:label "Data File";
+  mid:BWMD_00319 :FileName__1_0cb56232-80ff-41b4-8ea6-b55eacd4a940, :URLToFile__1_0cb56232-80ff-41b4-8ea6-b55eacd4a940 .
+
+:FileName__1_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00347;
+  rdfs:label "FileName__1";
+  mid:BWMD_00313 "7F20601 - AlSi10Mg Pulver TLS.xls" .
+
+:URLToFile__1_0cb56232-80ff-41b4-8ea6-b55eacd4a940 a mid:BWMD_00355;
+  rdfs:label "URLToFile__1";
+  mid:BWMD_00345 "https://owncloud.fraunhofer.de/index.php/s/PolBPBDeoSTidZp/download?path=%2FAluTrace%2Ffem%2FLPBF_manufacturing%2FChemical%20comp&files=7F20601%20-%20AlSi10Mg%20Pulver%20TLS.xlsx"^^xsd:anyURI .
+
+<https://www.emi.fraunhofer.de/ontologies/LPBFO#Hydrogen+Content_0cb56232-80ff-41b4-8ea6-b55eacd4a940>
+  a :LPBFO_00509;
+  rdfs:label "Hydrogen Content";
+  mid:BWMD_00314 3.2E-3;
+  mid:BWMD_00313 "wt%" .
+
+<https://www.emi.fraunhofer.de/ontologies/LPBFO#Oxygen+Content_0cb56232-80ff-41b4-8ea6-b55eacd4a940>
+  a :LPBFO_00508;
+  rdfs:label "Oxygen Content";
+  mid:BWMD_00314 4.6E-2;
+  mid:BWMD_00313 "wt%" .
+
+:EngineeringMaterial_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00002;
+  rdfs:label "EngineeringMaterial";
+  mid:BWMD_00319 :HeatTreatmentID_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e, :MaterialName_1_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e,
+    :MaterialStateID_1_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e;
+  mid:BWMD_00336 :MaterialVolumeStructureInfo_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e .
+
+:HeatTreatmentID_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a :LPBFO_00513;
+  rdfs:label "HeatTreatmentID";
+  mid:BWMD_00313 "none" .
+
+:MaterialName_1_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00342;
+  rdfs:label "MaterialName_1";
+  mid:BWMD_00313 "AlSi10Mg" .
+
+:MaterialStateID_1_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00356;
+  rdfs:label "MaterialStateID_1";
+  mid:BWMD_00313 "Pulver 2" .
+
+:MaterialVolumeStructureInfo_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00226;
+  rdfs:label "MaterialVolumeStructureInfo";
+  mid:BWMD_00323 :ChemicalComposition_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e, <https://www.emi.fraunhofer.de/ontologies/LPBFO#Data+File_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Hydrogen+Content_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Oxygen+Content_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e> .
+
+:BaseElementOfComposition_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00180;
+  rdfs:label "BaseElementOfComposition";
+  mid:BWMD_00314 9.024E1;
+  mid:BWMD_00318 "Al" .
+
+:ChemicalComposition_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00135;
+  rdfs:label "ChemicalComposition";
+  mid:BWMD_00323 :BaseElementOfComposition_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e, :WeightFraction_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e .
+
+:WeightFraction_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00139;
+  rdfs:label "WeightFraction";
+  mid:BWMD_00323 :ChemicalElementSymbol_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e_1, :ChemicalElementSymbol_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e_2,
+    :ChemicalElementSymbol_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e_3 .
+
+:ChemicalElementSymbol_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e_1 a mid:BWMD_00105;
+  rdfs:label "ChemicalElementSymbol";
+  mid:BWMD_00312 "%";
+  mid:BWMD_00314 9.3E0;
+  mid:BWMD_00318 "Si" .
+
+:ChemicalElementSymbol_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e_2 a mid:BWMD_00105;
+  rdfs:label "ChemicalElementSymbol";
+  mid:BWMD_00312 "%";
+  mid:BWMD_00314 1.3E-1;
+  mid:BWMD_00318 "Fe" .
+
+:ChemicalElementSymbol_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e_3 a mid:BWMD_00105;
+  rdfs:label "ChemicalElementSymbol";
+  mid:BWMD_00312 "%";
+  mid:BWMD_00314 2.8E-1;
+  mid:BWMD_00318 "Mg" .
+
+<https://www.emi.fraunhofer.de/ontologies/LPBFO#Data+File_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e>
+  a mid:BWMD_00032;
+  rdfs:label "Data File";
+  mid:BWMD_00319 :FileName__1_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e, :URLToFile__1_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e .
+
+:FileName__1_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00347;
+  rdfs:label "FileName__1";
+  mid:BWMD_00313 "7F20604 - AlSi10Mg Pulver m4p.xls" .
+
+:URLToFile__1_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e a mid:BWMD_00355;
+  rdfs:label "URLToFile__1";
+  mid:BWMD_00345 "https://owncloud.fraunhofer.de/index.php/s/PolBPBDeoSTidZp/download?path=%2FAluTrace%2Ffem%2FLPBF_manufacturing%2FChemical%20comp&files=7F20604%20-%20AlSi10Mg%20Pulver%20m4p.xlsx"^^xsd:anyURI .
+
+<https://www.emi.fraunhofer.de/ontologies/LPBFO#Hydrogen+Content_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e>
+  a :LPBFO_00509;
+  rdfs:label "Hydrogen Content";
+  mid:BWMD_00314 2.5E-3;
+  mid:BWMD_00313 "wt%" .
+
+<https://www.emi.fraunhofer.de/ontologies/LPBFO#Oxygen+Content_dd704cd8-1420-41c1-b7f4-eeb1a7d40f6e>
+  a :LPBFO_00508;
+  rdfs:label "Oxygen Content";
+  mid:BWMD_00314 4.7E-2;
+  mid:BWMD_00313 "wt%" .
