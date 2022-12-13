@@ -22,6 +22,8 @@ In the AluTrace project raw data was semantically modelled using the top-level o
 - Mechanical testing of the processed components (**TensileTest**), performed at IWM
 
 ### Overview over RDF files
+In this repo you will find the [individual RDF data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20RDF%20files) which use ontology classes but do not contain ontological definitions. All ontologies can be found in the folder for the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files). Each RDF data is produced using the bfo2, the BWMD_mid and one domain ontology. The corresponding domain ontology to each RDF data file can be found in the image above. 
 
+In this very folder, you can find RDF files that merge all RDF data files from each project and the necessary ontologies. As visualized in the image above, 
 
 
