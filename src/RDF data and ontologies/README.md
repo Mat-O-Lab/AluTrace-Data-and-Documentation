@@ -3,7 +3,7 @@ This is an introduction into the organization and the content of the RDF data. T
 
 ![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Datafiles.png?raw=true)
 
-In the AluTrace project raw data was semantically modelled using the top-level ontology [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released) and the mid-level ontology [BWMD_mid](https://matportal.org/ontologies/BWMD-MID). The raw data used originated from the previous Web4GenMet project and was purposefully supplemented with raw data produced in the AluTrace project itself. The raw data was semantically modeled per material-intensive subprocess that was performed at the corresponding executive institution (EMI, IWM or fem). One individual RDF data file results from one subprocess which were the following:
+In the AluTrace project raw data was semantically modelled using the top-level ontology [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released) and the mid-level ontology [BWMD_mid](https://matportal.org/ontologies/BWMD-MID). The raw data used originated from the previous Web4GenMet project and was purposefully supplemented with raw data produced in the AluTrace project itself. The raw data was semantically modeled per material-intensive subprocess that was performed at the corresponding executive institution (EMI, IWM or fem). One individual RDF data file results from one subprocess. The modelled subprocesses are:
 
 ### Subprocesses performed within the Web4GenMet project
 - Laser powder bed fusion additive manufacturing process (**LPBFprocess**) using AlSi10Mg metal powder, performed at EMI
