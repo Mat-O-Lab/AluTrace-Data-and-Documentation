@@ -36,24 +36,6 @@ This repository contains the deliverables for this project, including
   - the final report, 
   - a supporting set of presentation slides.
 
-## Ressources
-Ontological ressources used in the project include:  
-
-**Top-level Ontology**  
-- [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
-  
-**Mid-level Ontology**  
-- [BWMD_mid](https://matportal.org/ontologies/BWMD-MID)  
-  
-**Domain-level Ontologies**  
-- [BWMD_domain](https://matportal.org/ontologies/BWMD-DOMAIN)
-- [LPBFO](https://matportal.org/ontologies/LPBFO)
-- [emiHT](https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/LPBFO/-/raw/emiHT/EMIHT_ontology.owl) 
-- fatigue
-- defects
-
-
-
 <!-- ## Evaluation of FAIRness of this data
 https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c52e8cf0d3def29462d8cb5
 -->
