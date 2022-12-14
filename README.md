@@ -28,9 +28,9 @@ Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research In
 ## The organization of the data
 This repository contains the deliverables for this project, including 
 - src: 
-  - the RDF data, [-->What data is provied?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies) 
-  - the SPARQL queries written for the project along with the returns of those SPARQL queries, [-->What do the queries describe?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results)
-  - the process graphs as templates for the individual RDF data set, [-->What is a process graph?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data)
+  - the RDF data, [->What data is provied?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies) 
+  - the SPARQL queries written for the project along with the returns of those SPARQL queries, [->What do the queries describe?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results)
+  - the process graphs as templates for the individual RDF data set, [->What is this useful for?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data)
 
 - doc:
   - the final report, 
