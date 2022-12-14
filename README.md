@@ -54,6 +54,7 @@ https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c
 - Dario Tiberto, [fem](https://www.fem-online.de)  
 
 ## Contact
+If you have any questions or feedback please don't hesitate to contact us!
 
 **Martin Huschka**, Michael Dlugosch, Klaus Hoschke, Sankalp Patil  
 Fraunhofer-Institut für Kurzzeitdynamik, Ernst-Mach-Institut, EMI  
