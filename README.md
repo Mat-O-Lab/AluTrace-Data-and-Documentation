@@ -44,7 +44,7 @@ Since the heterogeneous data is provided by different actors, compliance with th
 
 When using the decentralized data from the MDS, the design engineer is empowered to provide an optimized lightweight design that results in a weight reduction of 23 percent in comparison to the cast component. Furthermore, the lightweight design demonstrates significantly improved properties compared to a geometry designed according to the previous state-of-the-art in topology optimization without linkage of material and process data via the MDS.The AluTrace use case demonstrates the benefits of a cross-institutional data space in a real-world scenario that further exploits the AM lightweight potential.
 
-**The research data created in AluTrace is provided in this repository. It is organized to enable reuse for several [purposes](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/RDF%20data%20and%20ontologies/README.md#Use-cases-of-this-data).** 
+***The research data created in AluTrace is provided in this repository. It is organized to enable reuse for several [purposes](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/RDF%20data%20and%20ontologies/README.md#Use-cases-of-this-data).***
 
 ### Further Reading
 - [Position Paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf) and a [Lightning Talk](https://www.youtube.com/watch?v=4FoApZMCrSw) on the implementation of the cross-institutional data space.
