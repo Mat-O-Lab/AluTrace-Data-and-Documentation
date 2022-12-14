@@ -1,5 +1,15 @@
 # What data is provided?
-This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [applications](#Use-cases-of-this-data). An overview over the available RDF and ontology files can be found in the following image:
+This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [applications](#Use-cases-of-this-data). 
+
+## Overview over RDF files
+In this repo you will find 
+- the [individual RDF data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20RDF%20files) that contain the data instances that use ontology classes but do not contain ontological definitions. 
+- All [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) can be found in the corresponding folder. Each RDF data is produced using the bfo2, the BWMD_mid and one domain ontology. The corresponding domain ontology to each RDF data file can be exctracted from the image above. 
+- [Individual alignments](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignments) of the RDF graphs e.g between nodes that represent the same specimen/component (identified by the same PartID) are provided. 
+
+- In this very folder, you can find RDF files that merge all RDF data files from each project and the necessary ontologies. You can find the specialties of each file described in the image above. The multitude of RDF files is provided so the data can be used for different purposes, that are described as follows.
+
+An overview over the available RDF and ontology files can be found in the following image:
 
 ![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Datafiles.png?raw=true)
 
@@ -21,13 +31,7 @@ In the AluTrace project raw data was semantically modelled using the top-level o
 - Mechanical testing of the processed specimen (**TensileTest**), performed at IWM
 - Mechanical testing of the processed components (**TensileTest**), performed at IWM
 
-## Overview over RDF files
-In this repo you will find 
-- the [individual RDF data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20RDF%20files) which use ontology classes but do not contain ontological definitions. 
-- All [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) can be found in the corresponding folder. Each RDF data is produced using the bfo2, the BWMD_mid and one domain ontology. The corresponding domain ontology to each RDF data file can be exctracted from the image above. 
-- [Individual alignments](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignments) of the RDF graphs e.g between nodes that represent the same specimen/component (identified by the same PartID) are provided. 
 
-- In this very folder, you can find RDF files that merge all RDF data files from each project and the necessary ontologies. You can find the specialties of each file described in the image above. The multitude of RDF files is provided so the data can be used for different purposes, that are described as follows.
 
 ## Use cases of this data
 <!-- - Play around with decetralization of knowledge graphs
