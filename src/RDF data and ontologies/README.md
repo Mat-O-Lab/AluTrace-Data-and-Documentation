@@ -11,7 +11,7 @@ In this repo you will find
 
 <!-- add link to purposes here -->
 
-An overview over the available RDF and ontology files can be found in the following image:
+An overview of the available RDF and ontology files can be found in the following image:
 
 ![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Datafiles.png?raw=true)
 
