@@ -1,7 +1,7 @@
 # What data is provided?
 This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [purposes](#Use-cases-of-this-data). 
 
-## Overview over RDF files
+## Overview of RDF files
 In this repo you will find 
 - the [individual RDF data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) that contain the data instances that use ontology classes but do not contain ontological definitions. 
 - The [individual OWL ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) that were used to model the data. The bfo2, the BWMD_mid and one domain ontology per RDF data set was used. The corresponding domain ontology of each RDF data file can be exctracted from the image above. 
