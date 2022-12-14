@@ -1,5 +1,5 @@
 # What data is provided?
-This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [applications](#Use-cases-of-this-data). 
+This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [purposes](#Use-cases-of-this-data). 
 
 ## Overview over RDF files
 In this repo you will find 
