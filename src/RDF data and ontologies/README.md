@@ -7,7 +7,9 @@ In this repo you will find
 - The [individual OWL ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) that were used to model the data. The bfo2, the BWMD_mid and one domain ontology per RDF data set was used. The corresponding domain ontology of each RDF data file can be exctracted from the image above. 
 - The [individual RDF alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) that serve to link different RDF data with each other semantically e.g between nodes that represent the same specimen/component (identified by the same PartID) are provided. 
 
-- In this very folder, you can find RDF files that merge all RDF data files from each project and the necessary ontologies. You can find the specialties of each file described in the image above. The multitude of RDF files is provided so the data can be used for different purposes, that are described as follows.
+- In this very folder ([RDF data and ontologies](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/edit/main/src/RDF%20data%20and%20ontologies)) you find RDF files in which all RDF data files from each project and the necessary ontologies are merged. Different versions are provided. You can find the specialties of each version described in the image above. The multitude of RDF files is provided so the data can be used for different purposes, that are described below.
+
+<!-- add link to purposes here -->
 
 An overview over the available RDF and ontology files can be found in the following image:
 
