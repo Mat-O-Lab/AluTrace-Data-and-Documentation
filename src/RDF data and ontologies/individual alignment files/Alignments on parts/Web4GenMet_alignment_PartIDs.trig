@@ -1,0 +1,125 @@
+@prefix : <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#> .
+@prefix lpbfo: <https://www.emi.fraunhofer.de/ontologies/LPBFO#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix mid: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix emiHTdata: <https://www.emi.fraunhofer.de/data/AluTrace/emiHT/> .
+@prefix path: <http://www.ontotext.com/path#> .
+@prefix graph_designer: <https://www.materials.fraunhofer.de/ontologies/graph_designer#> .
+@prefix AluTrace: <https://www.emi.fraunhofer.de/data/AluTrace/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rank: <http://www.ontotext.com/owlim/RDFRank#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix bwmd_merged: <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://www.emi.fraunhofer.de/alignments/AluTrace/emiLPBF+emiHT+iwmTT> {
+  <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_1>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_6e19b8b1-227b-46fd-862f-c36deb845b75>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_81e827dc-3514-4315-89ae-eca125822800>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_150abf72-2fee-4e49-bd0a-ae612f716f43> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_2>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_9280a815-6d1c-4173-9da1-bc43e9b03a04>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_1ea43996-1a9e-402f-b1ff-df76feca11bc>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_332fa5f2-a122-4378-a7b3-b994dda75bbb> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_3>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_90fc05dd-4d45-4f8f-aad0-4c738ecb35cc>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_9aedc024-1bcf-45ee-8a07-47fcf6249156>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_7be3b0f6-ad78-42de-b8ec-ece7fb8d5358> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#Set+of+AM+Parts+after+Stress-Relief+Annealing_6a0ddbeb-31c4-4be6-9ab4-be875ec009d5_4>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_3353759c-7926-4edc-a5ac-2d5fa235c843>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_eeee272d-f655-49c3-b422-db2a6b34b61c>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_b82de0ec-db8c-48f4-97cf-6a94452ae1ba> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_d201a1f5-0e5b-4b44-8bd0-fecaa7a752be_13>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_38cd5530-0005-4ecd-8f22-5f4fb6172dc4>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_770b1ea1-0e7d-48c4-bc75-47b5101ce6fa>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_5c61885c-4c19-4fe8-81a9-ca9223b38bc2> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_d201a1f5-0e5b-4b44-8bd0-fecaa7a752be_14>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_6389adfe-84c5-4d5d-9948-24d917c2f42f>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_9c79d7c6-848b-4bd7-9975-82b34011b6f0>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_a27715a0-feb9-49f6-b9b6-fded1991ebf0> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_d201a1f5-0e5b-4b44-8bd0-fecaa7a752be_15>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_cd31b968-7368-41bc-b5e3-9c71f25f763e>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_1e6558ed-d0a3-402f-a9f5-760947575a68>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_f8e0ae8f-6837-470b-a237-8b164ab482be> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_d201a1f5-0e5b-4b44-8bd0-fecaa7a752be_16>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_c47037bd-56ab-401c-a4c8-227fa02eae1f>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_d73feb1a-b36d-4ddf-9ae1-4d47860946df>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_61c10eff-45b7-4da0-94a0-53606aaa5da2> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_56f73cbc-a1ae-4879-9d49-3f601350e904_10>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_cf8bad1f-8763-4efa-b4d6-5328e561feca>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_5d865b24-f0b6-4198-9a3e-95882c0cd716>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_61226211-daab-4897-8e41-d1ec6c116e8a>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_7558a860-e641-427c-9547-9298db818bee>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_0a4b21c5-c4bf-4b23-8f4b-df358d3cb4a5>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_ba72bc4d-ea52-4bd6-8624-7f6e593fae72> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_56f73cbc-a1ae-4879-9d49-3f601350e904_11>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_52632598-7b59-4b44-bd9e-0402e0dc439a>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_49f79362-b891-4853-810d-d32412ac69e9>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_363fc2d8-82cd-4f4b-b1b2-23cdf63f7806>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_65325feb-4b99-437b-9beb-38b8e3cc92bb>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_98faf83f-8781-444c-b994-c7b6477e0096>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_11d373b1-cdfa-41c6-98a2-a8d896adcc1d> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_56f73cbc-a1ae-4879-9d49-3f601350e904_12>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_b12784bd-68ca-41fe-90ca-ec0aed4c8af7>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_4c14cfa5-d936-4f05-be3a-42bb598edf4b>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_dec22dae-fe43-4366-8ee0-a9caad1c5eac>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_1584e98a-bc21-4766-8ca6-85585f30534a>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_1d16de29-4e60-46f4-89a3-42c17d0a4465>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_07c5f8fa-e7ac-4ee5-95fe-bfc93f3a5814> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_56f73cbc-a1ae-4879-9d49-3f601350e904_8>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_f8203ac8-73b3-4afb-a0d2-6df6543be9ca>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_d5f7cc8e-ea5b-4438-970f-14209e9841e1>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_a54fa3bb-de23-4a32-9095-4cecdd8da0f8> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_6676c8ac-3fb6-4788-8618-807b33e03653_10>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_90e40a13-a8ac-41a7-8796-90fcb2a7f139>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_b1487b9d-0c82-4902-a8b6-e79f1370ee81>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_c30f3360-eae2-4258-a29c-60fb0737f87d> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_6676c8ac-3fb6-4788-8618-807b33e03653_11>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_eae704a8-15e6-4928-80df-c3ea73ba9dea>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_3f7a070c-8bb5-43bc-971d-9c88e71aaa44>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_e0aa9608-a545-4d34-8b84-8b5171b0a7ae> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_6676c8ac-3fb6-4788-8618-807b33e03653_12>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_2854ecd4-2c21-4240-a4b2-bdc8031e0ba3>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_9c616d01-7c1c-4057-883d-714fcc0d9efe>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_9bc79b0d-a8da-47a8-8f55-e14f57988a81> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_6676c8ac-3fb6-4788-8618-807b33e03653_14>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_470632c8-2d8e-4f84-b261-c767e7d38585>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_0450127e-743a-423c-a5dc-bd3a0cedf668>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_c159e2f0-aeb6-48a4-9739-1fa7fa4a073d> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_6676c8ac-3fb6-4788-8618-807b33e03653_17>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_2b38bc3b-dea6-42a2-84b6-e890d04b2d34>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_d078d9dd-6be8-4098-b4ab-05520518e25a>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_82e51200-2bce-44b3-bf23-665a268b8a98> .
+  
+  <https://www.emi.fraunhofer.de/ontologies/LPBFO#Part+Set+Separated+from+Build+Platform_6676c8ac-3fb6-4788-8618-807b33e03653_8>
+    mid:BWMD_00323 <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_bb706b19-a476-4435-bbad-a1c320ba3787>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_635721b9-9af1-438d-ac51-f4894a84a318>,
+      <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_3bb4b5b5-b119-4602-a7b0-cfebb7f69915> .
+}
