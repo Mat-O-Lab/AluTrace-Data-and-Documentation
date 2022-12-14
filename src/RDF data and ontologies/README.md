@@ -34,6 +34,23 @@ In this very folder, you can find RDF files that merge all RDF data files from e
 - play around not being able to resolve named graphs
 - dont want to play around, just get me the tables!! -->
 
+## Ressources
+Ontological ressources used in the project include:  
+
+**Top-level Ontology**  
+- [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
+  
+**Mid-level Ontology**  
+- [BWMD_mid](https://matportal.org/ontologies/BWMD-MID)  
+  
+**Domain-level Ontologies**  
+- [BWMD_domain](https://matportal.org/ontologies/BWMD-DOMAIN)
+- [LPBFO](https://matportal.org/ontologies/LPBFO)
+- [emiHT](https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/LPBFO/-/raw/emiHT/EMIHT_ontology.owl) 
+- fatigue
+- defects
+
+
 
 
 
