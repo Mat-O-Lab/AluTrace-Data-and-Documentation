@@ -1,5 +1,5 @@
 # What data is provided?
-This is an introduction into the organization and the content of the RDF data. The data in this repository is organized in a way so it can be reused in different [use cases](#Use-cases-of-this-data). An overview over the available RDF and ontology files can be found in the following image:
+This is an introduction into the organization of the RDF data. The data in this repository is organized in a way so it can be reused in different [use cases](#Use-cases-of-this-data). An overview over the available RDF and ontology files can be found in the following image:
 
 ![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Datafiles.png?raw=true)
 
