@@ -1,0 +1,108 @@
+####
+# This query retrieves from the AluTrace-LD data set the materials characteristics that were observed in dependency from varying process parameters in laser powder bed fusion. 
+# Authors: Martin Huschka, Fraunhofer EMI; Elena Garcia Trelles, Fraunhofer IWM
+# Date: 14.12.2022
+###
+
+PREFIX  lpbfo: <https://www.emi.fraunhofer.de/ontologies/LPBFO#>
+PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX  domain: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/domain#>
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  mid:  <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT  ?PartID ?TensileTestID ?PartType ?PowderName ?BuildOrientationAngle_value ?BuildOrientationAngle_unit ?LayerThickness_value ?LayerThickness_unit ?NameOfProcessParameter ?HeatTreatment ?BuildPlatformTemperature ?MaterialSurfaceTemperatureAsSupposed_value ?MaterialSurfaceTemperatureAsSupposed_unit ?Ym_value ?Ym_unit ?Rp02_value ?Rp02_unit ?R_UTS_value ?R_UTS_unit ?A_value ?A_unit ?Ag_value ?Ag_unit ?SurfaceFinishing ?TensileTestResultURL
+WHERE
+{ 
+  		?LPBFProcess  rdf:type [rdfs:label "LaserPowderBedFusion"@en];
+        		  mid:BWMD_00331  ?BuildPlatformobject. #hasOutput
+        ?BuildPlatformobject rdf:type [rdfs:label "BuildPlatformWithPartSet"@en];
+         		mid:BWMD_00337 ?Separating . #isInputFor
+        ?Separating  mid:BWMD_00331  ?Part . #hasOutput
+        ?Part rdf:type [rdfs:label "Part"@en];
+        	mid:BWMD_00319  _:b0. #hasIdentifier
+		_:b0 rdf:type _:b1 ;
+       		mid:BWMD_00313  ?PartID . #hasStringLiteral
+        _:b1 rdfs:label "PartID"@en.
+
+        ?LPBFProcess  mid:BWMD_00339  ?ProcessParameterSet . #hasControlInfo
+        ?ProcessParameterSet rdf:type [rdfs:label "ProcessParameterSet"@en] .
+        
+        ?Part  mid:BWMD_00319  ?BuildOrientationobject . #hasIdentifier
+        ?BuildOrientationobject rdf:type [rdfs:label "BuildOrientationAngleRelativeToBuildPlatform"@en];
+                  mid:BWMD_00314  ?BuildOrientationAngle_value ; #hasDoubleLiteral
+                  mid:BWMD_00312  ?BuildOrientationAngle_unit . #hasUnitSymbol
+        
+        ?Part  mid:BWMD_00319  ?PartTypeobject . #hasIdentifier
+        ?PartTypeobject rdf:type [rdfs:label "PartType"@en];
+        		mid:BWMD_00313  ?PartType . #hasStringLiteral
+        
+        ?ProcessParameterSet mid:BWMD_00323 ?LayerThicknessobject . #hasPart
+        ?LayerThicknessobject rdf:type  [rdfs:label "AdditiveManufacturingLayerThickness"@en];  
+                  mid:BWMD_00314  ?LayerThickness_value ; #hasDoubleLiteral
+                  mid:BWMD_00312  ?LayerThickness_unit . #hasUnitSymbol
+    
+    	?ProcessParameterSet mid:BWMD_00323 ?BPTempobject. #hasPart
+    	?BPTempobject rdf:type [rdfs:label "BuildPlatformTemperature"@en];
+                  mid:BWMD_00314  ?BuildPlatformTemperature ; #hasDoubleLiteral
+                  mid:BWMD_00312  ?BuildPlatformTemperatureUnit . #hasUnitSymbol                                                                   
+        
+        ?ProcessParameterSet mid:BWMD_00323  ?ProcessParametersobject . #hasPart
+        ?ProcessParametersobject rdf:type [rdfs:label "ProcessParameters"@en];
+        			mid:BWMD_00319  ?ProcessParameterNameobject . #hasIdentifier
+        ?ProcessParameterNameobject mid:BWMD_00313  ?NameOfProcessParameter . #hasStringLiteral
+        
+        ?MetalPowder mid:BWMD_00337 ?LPBFProcess; #isInputFor
+         	rdf:type [rdfs:label "MetalPowder"@en];
+			mid:BWMD_00322 ?Material . #isComposedOf
+        ?Material rdf:type [rdfs:label "EngineeringMaterial"@en];
+        	mid:BWMD_00319 ?MaterialStateIDobject . #hasIdentifier
+        ?MaterialStateIDobject rdf:type [rdfs:label "MaterialStateID"@en];
+            mid:BWMD_00313 ?PowderName. #hasStringLiteral
+
+    ?TensileTest a [rdfs:label "QuasiStaticTensileTest"@en].
+    ?TensileSpecimen mid:BWMD_00337 ?TensileTest. #isInputFor
+    ?TensileSpecimen mid:BWMD_00319 [a mid:BWMD_00360;   #hasIdentifier     
+                     mid:BWMD_00313 ?TensilePartSetID_Extern]. #hasIdentifier
+    ?TensileSpecimen  mid:BWMD_00319 [a domain:BWMD_00544; #hasIdentifier, TensileTestSpecimen
+                      mid:BWMD_00313 ?TensileTestID]. #hasStringLiteral       
+    ?TensileSpecimen ((mid:BWMD_00337/mid:BWMD_00323)/mid:BWMD_00331)/mid:BWMD_00313 ?SurfaceFinishing . #(isInputFor/hasPart)/hasOutput/hasStringLiteral
+    ?TensileSpecimen  mid:BWMD_00322 ?EngineeringMaterial.#isComposedOf 
+    ?EngineeringMaterial a mid:BWMD_00002; #EngineeringMaterial
+                      mid:BWMD_00319 ?HTreatID. #hasIdentifier
+    ?HTreatID a domain:BWMD_00060; #HeatreatmentID
+              mid:BWMD_00313 ?HeatTreatment. #hasStringLiteral     
+    ?TensileTest (mid:BWMD_00339)+ ?TTProcessParameterSet. #hasControlInfo 
+    ?TTProcessParameterSet mid:BWMD_00323 ?TempTTParameter. #hasPart
+    ?TempTTParameter a domain:BWMD_00743. #MaterialSurfaceTemperatureAsSupposed
+    ?TempTTParameter mid:BWMD_00316 ?MaterialSurfaceTemperatureAsSupposed_value. #hasIntegerLiteral   
+    ?TempTTParameter mid:BWMD_00312 ?MaterialSurfaceTemperatureAsSupposed_unit.  #hasUnitSymbol  
+	
+    # Tensile Test Data
+    ?TensileTest mid:BWMD_00331 ?TTDataSet.  #hasOutput           
+    ?TTDataSet a mid:BWMD_00068; #ProcessDataSet
+                    mid:BWMD_00323 ?MatProp_i. #hasPart
+    ?MatProp_i mid:BWMD_00323 ?rm_i, ?rp02_i, ?A_i, ?Ag_i, ?Ym_i. #hasPart
+    ?rm_i a domain:BWMD_00595. #MaximumTensileStrength 
+    ?rm_i mid:BWMD_00314 ?R_UTS_value; #hasDoubleLiteral  
+          mid:BWMD_00312 ?R_UTS_unit. #hasUnitSymbol
+    ?rp02_i a domain:BWMD_00350. #YieldStrength
+    ?rp02_i mid:BWMD_00314 ?Rp02_value; #hasDoubleLiteral  
+          mid:BWMD_00312 ?Rp02_unit. #hasUnitSymbol
+    ?A_i a domain:BWMD_00500. #ElongationAfterFracture
+    ?A_i mid:BWMD_00314 ?A_value; #hasDoubleLiteral  
+          mid:BWMD_00312 ?A_unit. #hasUnitSymbol
+    ?Ag_i a domain:AT_00061. #StrainAtUTS
+    ?Ag_i mid:BWMD_00314 ?Ag_value; #hasDoubleLiteral  
+          mid:BWMD_00312 ?Ag_unit. #hasUnitSymbol
+    
+    ?Ym_i a domain:BWMD_00471.#YoungsModul
+    ?Ym_i mid:BWMD_00314 ?Ym_value; #hasDoubleLiteral  
+          mid:BWMD_00312 ?Ym_unit. #hasUnitSymbol
+    
+    ?TensileSpecimen (mid:BWMD_00337/mid:BWMD_00331/mid:BWMD_00323/mid:BWMD_00319/mid:BWMD_00345) ?TensileTestResultURL. #isInputFor/hasPutput/hasPart/hasIdentifier/hasURILiteral
+    
+        FILTER (xsd:string(?TensilePartSetID_Extern) = ?PartID )
+
+}

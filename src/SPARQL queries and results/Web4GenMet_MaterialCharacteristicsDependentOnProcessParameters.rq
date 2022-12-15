@@ -1,0 +1,125 @@
+####
+# This query retrieves from the Web4GenMet-LD data set the materials characteristics that were observed in dependency from varying process parameters in laser powder bed fusion. 
+# Authors: Martin Huschka, Fraunhofer EMI; Elena Garcia Trelles, Fraunhofer IWM
+# Date: 14.12.2022
+###
+
+PREFIX  lpbfo: <https://www.emi.fraunhofer.de/ontologies/LPBFO#>
+PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX  domain: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/domain#>
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  mid:  <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX  emiht: <https://www.emi.fraunhofer.de/ontologies/EMIHT_ontology#>
+
+SELECT DISTINCT  ?PartSetID ?TensileTestID_Intern ?BuildOrientationAngle_value ?BuildOrientationAngle_unit ?LayerThickness_value ?LayerThickness_unit ?NameOfProcessParameter ?HeatTreatment_ID ?MaterialSurfaceTemperatureAsSupposed_value ?MaterialSurfaceTemperatureAsSupposed_unit ?Ym_value ?Ym_unit ?Rp02_value ?Rp02_unit ?R_UTS_value ?R_UTS_unit ?A_value ?A_unit  ?Surface
+WHERE {
+  
+    	?LPBFProcess  a lpbfo:LPBFO_00005; #"LaserPowderBedFusion"@en .
+         			mid:BWMD_00331  ?BuildPlatformobject ; #hasOutput
+    				mid:BWMD_00339  ?ProcessParameterSet . #hasControlInfo
+    		    
+        ?BuildPlatformobject a lpbfo:LPBFO_00034; #"BuildPlatformWithPartSet"@en .
+                          mid:BWMD_00337  ?Separating . #isinputfor
+        ?Separating mid:BWMD_00331  ?PartSet . #hasOutput     
+                       
+        ?PartSet  a lpbfo:LPBFO_00012; #"PartSet"@en .
+			 		mid:BWMD_00319  _:b5 ; #hasidentifier
+      				mid:BWMD_00319  ?BuildOrientationobject ; #hasIdentifier
+          			mid:BWMD_00319  ?SpecimenTypeobject ; #hasIdentifier
+             		mid:BWMD_00319  ?IntendedForHTobject . #hasIdentifier
+
+        _:b5      rdf:type        lpbfo:LPBFO_00043 ; #PartSetID
+                  mid:BWMD_00313  ?PartSetID_LPBF . #hasStringLiteral
+    
+#    	###<<< Here begins emiHT data
+        ?PartSet_SRinput  mid:BWMD_00337  ?SRAnnealing ; #inputfor
+                  mid:BWMD_00323  ?PartSet_preHT . #hasPart
+        ?SRAnnealing  a emiht:EMIHT_00003; #"StressReliefAnnealing"@en .
+        			mid:BWMD_00331  ?PartSet_postHT . #hasOutput              
+        ?PartSet_preHT
+                  mid:BWMD_00319  _:b4 . #hasIdentifier
+        _:b4      rdf:type        lpbfo:LPBFO_00043 ; #PartSetID
+                  mid:BWMD_00313  ?PartSetID_preHT . #hasStringLiteral
+        ?PartSet_postHT
+                  mid:BWMD_00319  _:b6 .
+        _:b6      rdf:type        lpbfo:LPBFO_00043 ; #PartSetID
+                  mid:BWMD_00313  ?PartSetID_postHT . #hasStringLiteral
+#    	###>>> Here ends emiHT-data
+    
+        ?ProcessParameterSet rdf:type  mid:BWMD_00009; #"ProcessParameterSet"@en .
+					mid:BWMD_00323  ?LayerThicknessobject ; #hasPart
+     				mid:BWMD_00323  ?ProcessParametersobject . #hasPart
+    
+        ?BuildOrientationobject a lpbfo:LPBFO_00025; # "BuildOrientationAngleRelativeToBuildPlatform"@en .
+                  mid:BWMD_00314  ?BuildOrientationAngle_value; #hasDoubleLiteral
+                  mid:BWMD_00312  ?BuildOrientationAngle_unit . #hasUnitSymbol
+
+        ?SpecimenTypeobject rdf:type mid:BWMD_00028; #"SpecimenName"@en 
+		                  mid:BWMD_00313  ?SpecimenType . #hasStringLiteral
+
+        ?IntendedForHTobject rdf:type lpbfo:LPBFO_00070; #"IntendedForHeatTreatment"@en .
+                  mid:BWMD_00344  ?HTatEMI . #hasBooleanLiteral
+           
+        ?LayerThicknessobject rdf:type lpbfo:LPBFO_00009 ;#"AdditiveManufacturingLayerThickness"@en .
+                  mid:BWMD_00314  ?LayerThickness_value ; #hasDoubleLiteral
+                  mid:BWMD_00312  ?LayerThickness_unit . #hasUnitSymbol
+                  
+        ?ProcessParametersobject rdf:type lpbfo:LPBFO_00003; #"ProcessParameters"@en .
+                  mid:BWMD_00319  ?ProcessParameterNameobject . #hasIdentifier
+        ?ProcessParameterNameobject
+                  mid:BWMD_00313  ?NameOfProcessParameter . #hasStringLiteral
+# Here begins IWM-KG
+    	?TensileTest  rdf:type domain:BWMD_00526. #"QuasiStaticTensileTest"@en .
+            ?TensileSpecimen
+                      mid:BWMD_00337  ?TensileTest ; #isInputfor
+                      mid:BWMD_00319  _:b15 . #hasIdentifier
+            _:b15     rdf:type        mid:BWMD_00360 ; #ExternalObjectID
+                      mid:BWMD_00313  ?TensilePartSetID_Extern . #hasStringLiteral
+            ?TensileSpecimen mid:BWMD_00319  _:b16 . #hasIdentifier
+            _:b16     rdf:type        domain:BWMD_00544 ; #TensileTestSpecimen
+                      mid:BWMD_00313  ?TensileTestID_Intern . #hasStringLiteral
+            ?TensileSpecimen mid:BWMD_00337/mid:BWMD_00323 ?surfacefinishing. #inputFor / hasPart
+    		?surfacefinishing mid:BWMD_00331/mid:BWMD_00313 ?Surface ; #hasOutput / hasStringLiteral
+                                      a domain:BWMD_00726. #SurfaceFinishing
+   
+            ?TensileSpecimen mid:BWMD_00322 ?EngineeringMaterial . #isComposedOf
+            ?EngineeringMaterial
+                      rdf:type        mid:BWMD_00002 ; #EngineeringMaterial
+                      mid:BWMD_00319  ?HTreatID . #hasIdentifier
+    
+            ?HTreatID  rdf:type       domain:BWMD_00060 ; #heattreatmentID
+                      mid:BWMD_00313  ?HeatTreatment_ID . #hasStringLiteral
+    
+            ?TensileTest (mid:BWMD_00339)+ ?TTProcessParameterSet . #hasControlInfo
+            ?TTProcessParameterSet mid:BWMD_00323  ?TempTTParameter . #hasPart
+            ?TempTTParameter
+                      rdf:type        domain:BWMD_00743 ; #MaterialSurfaceTemperatureAsSupposed
+                      mid:BWMD_00316  ?MaterialSurfaceTemperatureAsSupposed_value ; #hasIntegerLiteral
+                      mid:BWMD_00312  ?MaterialSurfaceTemperatureAsSupposed_unit . #hasUnitSymbol
+            ?TensileTest  mid:BWMD_00331  ?TTDataSet . #hasOutput
+            ?TTDataSet  rdf:type      mid:BWMD_00068 ; #ProcessDataSet
+                      mid:BWMD_00323  ?MatProp_i . #hasPart
+            ?MatProp_i  mid:BWMD_00323  ?rm_i ; #hasPart
+                      mid:BWMD_00323  ?rp02_i ; #hasPart
+                      mid:BWMD_00323  ?A_i ; #hasPart
+                      mid:BWMD_00323  ?Ym_i . #hasPart
+            ?rm_i     rdf:type        domain:BWMD_00595 ; #MaximumTensileStrength
+                      mid:BWMD_00314  ?R_UTS_value ; #hasDoubleLiteral
+                      mid:BWMD_00312  ?R_UTS_unit . #hasUnitSymbol
+            ?rp02_i   rdf:type        domain:BWMD_00350 ; #IWMLabelsID
+                      mid:BWMD_00314  ?Rp02_value ; #hasDoubleLiteral
+                      mid:BWMD_00312  ?Rp02_unit . #hasUnitSymbol
+            ?A_i      rdf:type        domain:BWMD_00500 ; #PercentageElongationAfterFracture
+                      mid:BWMD_00314  ?A_value ; #hasDoubleLiteral
+                      mid:BWMD_00312  ?A_unit . #hasUnitSymbol
+            ?Ym_i     rdf:type        domain:BWMD_00471 ; #YoundModulus
+                      mid:BWMD_00314  ?Ym_value ; #hasDoubleLiteral
+                      mid:BWMD_00312  ?Ym_unit. #hasUnitSymbol
+#Here ends IWM-KG
+        BIND(if(( ( ?PartSetID_LPBF = ?PartSetID_preHT ) && regex(str(?PartSetID_LPBF), str(?PartSetID_postHT)) ), str(?PartSetID_postHT), str(?PartSetID_LPBF)) AS ?PartSetID)
+
+            FILTER ( xsd:string(?TensilePartSetID_Extern) = ?PartSetID )
+
+}
