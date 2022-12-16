@@ -60,9 +60,9 @@ The data was modeled per subprocess using the following ontologies:
   - The structure of the RDF data can be explored via the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data).
     
 **Purpose3: I want to use the whole set of RDF data to experiment with rulesets for reasoning.**
-  - You can choose AluTrace-Web4GenMet-LD.trig and choose the ruleset according to your needs. 
-  - If you plan to investigate how your query behaves upon the interaction between alignment and ruleset, you should choose AluTrace.trig, Web4GenMet.trig, create your own alignment or choose alignments from the [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) folder. 
-    - If your triple store doesn't support to query over all named graphs you can choose AluTrace.ttl and Web4GenMet.ttl instead.
+  - You can choose AluTrace-Web4GenMet-LD.trig and experiment with rulesets according to your needs. 
+  - If you plan to investigate how your query behaves upon the interaction between alignment and ruleset, you should choose AluTrace.trig, Web4GenMet.trig and experiment with alignments and rulesets according to your needs.
+    - If your triple store doesn't support the query over all named graphs you can choose AluTrace.ttl and Web4GenMet.ttl instead.
   
 **Purpose4: I want to query the individual RDF data.**
   - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder and choose the data you want.  
