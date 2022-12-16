@@ -8,7 +8,7 @@ The workflow for semantic modeling of data is based on the [IWM-GDTool](https://
 4. Transformation of the Excel file with the Literal values to a RDF data file (knowledge graph) for further validation and processing.  
 
 
-***The process model is not only necessary to create the RDF data within workflow, but it is also very useful to understand the RDF data structure. You can either just view a PNG-image of the process model or upload it to the [Knowledgebase Builder](https://inforapid.org/webapp/login.php) and explore it.***
+**The process model is not only necessary to create the RDF data within workflow, but it is also very useful to understand the RDF data structure. You can either just view a PNG-image of the process model or upload it to the [Knowledgebase Builder](https://inforapid.org/webapp/login.php) and explore it.**
 
 Each process model is named just like the [individual RDF data file](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) it was used as template for. 
 
