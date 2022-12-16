@@ -3,11 +3,7 @@
 <!-- to dos:
 - Web4GenMet Info in docs
 - AluTrace Infos in docs
-- Describe use cases
-- Rename and restructure alignments, also describe them!!
-- Create and check the merged files!!!
-
-
+- Describe alignments them!!
 -->
 
 
