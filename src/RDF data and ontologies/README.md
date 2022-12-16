@@ -54,9 +54,9 @@ The data was modeled per subprocess using the following ontologies:
   - Please direct yourself to the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder and retrieve the csv-files with materials characteristics.  
   
 **Purpose2: I want to use the final RDF data and perform exploratory queries on it.**
-    - If you use a triple store with advanced reasoning capabilites, choose AluTrace-Web4GenMet-LD.trig 
-    - If you use a triple store without advanced reasoning capabilities, choose AluTrace-Web4GenMet-LD-inferred.ttl 
-    - You can start with the queries provided in the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder. 
+  - If you use a triple store with advanced reasoning capabilites, choose AluTrace-Web4GenMet-LD.trig 
+  - If you use a triple store without advanced reasoning capabilities, choose AluTrace-Web4GenMet-LD-inferred.ttl 
+  - You can start with the queries provided in the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder. 
     
 **Purpose3: I want to use the whole set of RDF data to experiment with rulesets for reasoning.**
   - You can choose AluTrace-Web4GenMet-LD.trig and choose the ruleset according to your needs. 
