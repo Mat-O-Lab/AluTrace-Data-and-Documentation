@@ -5,7 +5,7 @@ These queries were developed using GraphDB 9.9.1 and the OWL-Horst (Optimized) r
 
 
 
-You can find the queries that were necessary to fulfil the AluTrace use case:
+The following queries are provided:
 - [**AluTrace_MaterialCharacteristicsDependentOnProcessParameters.sq**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/SPARQL%20queries%20and%20results/AluTrace_MaterialCharacteristicsDependentOnProcessParameters.sq)
   - This query retrieves from the AluTrace-LD data set the materials characteristics that were observed in dependency from varying process parameters in laser powder bed fusion. 
 - [**Web4GenMet_MaterialCharacteristicsDependentOnProcessParameters.sq**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/SPARQL%20queries%20and%20results/Web4GenMet_MaterialCharacteristicsDependentOnProcessParameters.sq)
