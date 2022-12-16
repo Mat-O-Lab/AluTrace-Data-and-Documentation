@@ -55,7 +55,7 @@ The data was modeled per subprocess using the following ontologies:
   
 **Purpose2: I want to use the final RDF data and perform exploratory queries on it.**
   - If you use a triple store with reasoning capabilites, choose [AluTrace-Web4GenMet-LD.trig](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/AluTrace-Web4GenMet-LD.trig).
-  - If you use a triple store without reasoning capabilities, choose [AluTrace-Web4GenMet-LD-inferred.ttl](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/AluTrace-Web4GenMet-LD.ttl).
+  - If you use a triple store without reasoning capabilities, choose [AluTrace-Web4GenMet-LD-inferred.ttl](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/AluTrace-Web4GenMet-LD-inferred.ttl).
   - You can start with the queries provided in the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder. 
   - The structure of the RDF data can be explored via the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data).
     
