@@ -54,9 +54,10 @@ The data was modeled per subprocess using the following ontologies:
   - Please direct yourself to the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder and retrieve the csv-files with materials characteristics.  
   
 **Purpose2: I want to use the final RDF data and perform exploratory queries on it.**
-  - If you use a triple store with advanced reasoning capabilites, choose AluTrace-Web4GenMet-LD.trig 
-  - If you use a triple store without advanced reasoning capabilities, choose AluTrace-Web4GenMet-LD-inferred.ttl 
+  - If you use a triple store with reasoning capabilites, choose AluTrace-Web4GenMet-LD.trig 
+  - If you use a triple store without reasoning capabilities, choose AluTrace-Web4GenMet-LD-inferred.ttl 
   - You can start with the queries provided in the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder. 
+  - The structure of the RDF data can be explored via the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data).
     
 **Purpose3: I want to use the whole set of RDF data to experiment with rulesets for reasoning.**
   - You can choose AluTrace-Web4GenMet-LD.trig and choose the ruleset according to your needs. 
@@ -65,6 +66,7 @@ The data was modeled per subprocess using the following ontologies:
   
 **Purpose4: I want to query the individual RDF data.**
   - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder and choose the data you want.  
+  -  The structure of the RDF data can be explored via the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data).
   
 **Purpose4-1: I want to experiment with the ontologies chosen for the RDF data.**
   - Please direct yourself to the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder and choose the ontologies you need. Remember that all data uses bfo2 and BWMD_mid, the corresponding domain-ontology for each data file you can find in the image above.   
