@@ -63,13 +63,13 @@ The data was modeled per subprocess using the following ontologies:
   - If you plan to investigate how your query behaves upon the interaction between alignment and ruleset, you should choose AluTrace.trig, Web4GenMet.trig, create your own alignment or choose alignments from the [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) folder. 
     - If your triple store doesn't support to query over all named graphs you can choose AluTrace.ttl and Web4GenMet.ttl instead.
   
-**Purpose4: I want to query on the individual RDF data.**
+**Purpose4: I want to query the individual RDF data.**
   - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder and choose the data you want.  
   
-    **Purpose4-1: I want to experiment with the ontologies chosen for the RDF data.**
+ **Purpose4-1: I want to experiment with the ontologies chosen for the RDF data.**
     - Please direct yourself to the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder and choose the ontologies you need. Remember that all data uses bfo2 and BWMD_mid, the corresponding domain-ontology for each data file you can find in the image above.   
     
-    **Purpose4-2: I want to experiment with the alignment of the RDF data. **
+ **Purpose4-2: I want to experiment with the alignment of the RDF data. **
     - You can find prepared alignments in the folder [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files). 
 
 **Purpose5: I want to use the data from different sources to experiment with decetralized data management architectures.**
