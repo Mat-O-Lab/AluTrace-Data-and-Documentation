@@ -75,9 +75,9 @@ The data was modeled per subprocess using the following ontologies:
   - You can find prepared alignments in the folder [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files). 
 
 **Purpose5: I want to use the data from different sources to experiment with decetralized data management architectures.**
-  - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder, choose the data you want and place it where you need it in the architecture.   
-  - Please direct yourself to the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder, choose the ontologies you need and place it where you need it in the architecture. Remember that all data uses bfo2 and BWMD_mid, the corresponding domain-ontology for each data file you can find in the image above.   
-  - Please direct yourself to the [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) folder and place the alignment where you need it in the architecture. 
+  - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder, choose the data you want and place it where you need it.   
+  - Please direct yourself to the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder, choose the ontologies you need and place it where you need it. Remember that all data uses bfo2 and BWMD_mid, the corresponding domain-ontology for each data file you can find in the image above.   
+  - Please direct yourself to the [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) folder and place the alignment where you need it. 
 
 
 
