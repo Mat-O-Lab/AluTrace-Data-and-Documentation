@@ -1,1 +1,0 @@
-# What do the queries describe?
