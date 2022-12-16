@@ -54,14 +54,14 @@ The data was modeled per subprocess using the following ontologies:
   - Please direct yourself to the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder and retrieve the csv-files with materials characteristics.  
   
 **Purpose2: I want to use the final RDF data and perform exploratory queries on it.**
-  - If you use a triple store with reasoning capabilites, choose AluTrace-Web4GenMet-LD.trig 
-  - If you use a triple store without reasoning capabilities, choose AluTrace-Web4GenMet-LD-inferred.ttl 
+  - If you use a triple store with reasoning capabilites, choose [AluTrace-Web4GenMet-LD.trig](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/AluTrace-Web4GenMet-LD.trig).
+  - If you use a triple store without reasoning capabilities, choose [AluTrace-Web4GenMet-LD-inferred.ttl](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/AluTrace-Web4GenMet-LD.ttl).
   - You can start with the queries provided in the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder. 
   - The structure of the RDF data can be explored via the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data).
     
 **Purpose3: I want to use the whole set of RDF data to experiment with rulesets for reasoning.**
-  - You can choose AluTrace-Web4GenMet-LD.trig and experiment with rulesets according to your needs. 
-  - If you plan to investigate how your query behaves upon the interaction between alignment and ruleset, you should choose AluTrace.trig, Web4GenMet.trig and experiment with alignments and rulesets according to your needs.
+  - You can choose [AluTrace-Web4GenMet-LD.trig](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/AluTrace-Web4GenMet-LD.trig) and experiment with rulesets according to your needs. 
+  - If you plan to investigate how your query behaves upon the interaction between alignment and ruleset, you should choose [AluTrace.trig](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/AluTrace.trig), [Web4GenMet.trig](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/Web4GenMet.trig) and experiment with alignments and rulesets according to your needs.
     - If your triple store doesn't support the query over all named graphs you can choose [AluTrace.ttl](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/AluTrace.ttl) and [Web4GenMet.ttl](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/raw/main/src/RDF%20data%20and%20ontologies/Web4GenMet.ttl) instead.
   
 **Purpose4: I want to query the individual RDF data.**
