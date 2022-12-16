@@ -1,5 +1,5 @@
 # What data is provided?
-This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [purposes](#Use-cases-of-this-data). 
+This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [purposes](#How-to-use-this-data-for-different-purposes). 
 
 ## Overview of RDF files
 In this repo you will find 
@@ -33,18 +33,8 @@ In the AluTrace project raw data was semantically modelled using the top-level o
 - Mechanical testing of the processed specimen (**TensileTest**), performed at IWM
 - Mechanical testing of the processed components (**TensileTest**), performed at IWM
 
-
-
-## Use cases of this data
-<!-- - Play around with decetralization of knowledge graphs
-- Play around with alignments
-- play around with different reasoning rulesets
-- play around not having a good reasoner
-- play around not being able to resolve named graphs
-- dont want to play around, just get me the tables!! -->
-
-## Ressources
-Ontological ressources used in the project include:  
+## Ontolgical ressources
+The data was modeled per subprocess using the following ontologies:  
 
 **Top-level Ontology**  
 - [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
@@ -58,6 +48,34 @@ Ontological ressources used in the project include:
 - [emiHT](https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/LPBFO/-/raw/emiHT/EMIHT_ontology.owl) 
 - fatigue
 - defects
+
+## How to use this data for different purposes
+**Purpose1: I am not interested in RDF data but in the materials characteristics you observed.**
+  - Please direct yourself to the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder and retrieve the csv-files with materials characteristics.  
+  
+**Purpose2: I want to use the final RDF data and perform exploratory queries on it.**
+    - If you use a triple store with advanced reasoning capabilites, choose AluTrace-Web4GenMet-LD.trig 
+    - If you use a triple store without advanced reasoning capabilities, choose AluTrace-Web4GenMet-LD-inferred.ttl 
+    - You can start with the queries provided in the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder. 
+    
+**Purpose3: I want to use the whole set of RDF data to experiment with rulesets for reasoning.**
+  - You can choose AluTrace-Web4GenMet-LD.trig and choose the ruleset according to your needs. 
+  - If you plan to investigate how your query behaves upon the interaction between alignment and ruleset, you should choose AluTrace.trig, Web4GenMet.trig, create your own alignment or choose alignments from the [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) folder. 
+    - If your triple store doesn't support to query over all named graphs you can choose AluTrace.ttl and Web4GenMet.ttl instead.
+  
+**Purpose4: I want to query on the individual RDF data.**
+  - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder and choose the data you want.  
+  
+    **Purpose4-1: I want to experiment with the ontologies chosen for the RDF data.**
+    - Please direct yourself to the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder and choose the ontologies you need. Remember that all data uses bfo2 and BWMD_mid, the corresponding domain-ontology for each data file you can find in the image above.   
+    
+    **Purpose4-2: I want to experiment with the alignment of the RDF data. **
+    - You can find prepared alignments in the folder [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files). 
+
+**Purpose5: I want to use the data from different sources to experiment with decetralized data management architectures.**
+   - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder, choose the data you want and place it where you need it in the architecture.   
+  - Please direct yourself to the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder, choose the ontologies you need and place it where you need it in the architecture. Remember that all data uses bfo2 and BWMD_mid, the corresponding domain-ontology for each data file you can find in the image above.   
+  - Please direct yourself to the [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) folder and place the alignment where you need it in the architecture. 
 
 
 
