@@ -26,7 +26,6 @@ This repository contains the deliverables of this project, including
   - the process models as templates for the individual RDF data, [->What is this useful for?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data)
 
 - doc:
-  - the final report, 
   - a supporting set of presentation slides.
 
 <!-- ## Evaluation of FAIRness of this data
