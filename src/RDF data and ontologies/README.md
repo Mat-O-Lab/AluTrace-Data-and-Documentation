@@ -50,7 +50,7 @@ The data was modeled per subprocess using the following ontologies:
 - defects
 
 ## How to use this data for different purposes
-**Purpose1: I am not interested in RDF data but in the materials characteristics you observed.**
+**Purpose1: I am not interested in RDF data but in the materials characteristics that were observed.**
   - Please direct yourself to the [SPARQL queries and results](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results) folder and retrieve the csv-files with materials characteristics.  
   
 **Purpose2: I want to use the final RDF data and perform exploratory queries on it.**
