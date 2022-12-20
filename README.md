@@ -14,9 +14,9 @@ The aim of AluTrace was to digitally link data and knowledge silos that arise ov
 The project consortium, consisting of the [Fraunhofer Institute for High-Speed Dynamics, Ernst-Mach-Institut, EMI](https://www.emi.fraunhofer.de/en/business-units/automotive/research/digitales-datenmanagement.html), [Fraunhofer Institute for 
 Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research Institute for Precious Metals and Metal Chemistry](https://www.fem-online.de/) used legacy data and supplemented it specifically to generate semantic data, which is provided decentrally via the very first implementation of the [Materials Data Space](https://www.materials.fraunhofer.de/de/strategische-initativen/materials-data-space-/aktuelles-/erste-mds-implementierung-.html).  
 
-***The semantic data created in AluTrace and provided via the Materials Data Space is additionaly provided as research data in this repository. Every release is automatically published via Zenodo: using the [DOI 10.5281/zenodo.7417561](https://doi.org/10.5281/zenodo.7417561).***
+***The semantic data created in AluTrace and provided via the Materials Data Space is additionaly provided as research data in this repository. Every release is automatically published via Zenodo using the [DOI: 10.5281/zenodo.7417561](https://doi.org/10.5281/zenodo.7417561).***
 
-***The design algorithm developed in AluTrace to optimize lightweight design makes use of the semantic data provided via the Materials Data Space. The simulation data created by this design algorithm is published separately using the [DOI 10.5281/zenodo.7462692](https://doi.org/10.5281/zenodo.7462692)*** 
+***The design algorithm developed in AluTrace to optimize lightweight design makes use of the semantic data provided via the Materials Data Space. The simulation data created by this design algorithm is published separately using the [DOI: 10.5281/zenodo.7462692](https://doi.org/10.5281/zenodo.7462692)*** 
 
 ## Content of the data
 <!-- Here refer to use case and content documentation -->
