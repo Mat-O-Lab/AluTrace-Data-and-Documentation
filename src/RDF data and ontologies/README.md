@@ -17,15 +17,18 @@ An overview of the available RDF and ontology files can be found in the followin
 
 ![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Datafiles.png?raw=true)
 
-In the AluTrace project raw data was semantically modelled using the top-level ontology [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released) and the mid-level ontology [BWMD_mid](https://matportal.org/ontologies/BWMD-MID), further explanation on the ontological resources can be found in the [individual OWL ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder. The raw data originates from the previous Web4GenMet project and was purposefully supplemented with raw data produced in the AluTrace project itself. The raw data was semantically modeled per material-intensive process executed at the corresponding institution (EMI, IWM or fem). The colors highlight the institution where the owner of the data (EMI, IWM or fem). One individual RDF data file results from one [process model](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data). The modelled processes are:
+In the AluTrace project raw data was semantically modelled using the top-level ontology [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released) and the mid-level ontology [BWMD_mid](https://matportal.org/ontologies/BWMD-MID). The raw data originates from the previous Web4GenMet project and was purposefully supplemented with raw data produced in the AluTrace project itself. The raw data was semantically modeled per material-intensive process executed at the corresponding institution (EMI, IWM or fem). The colors highlight the institution where the owner of the data (EMI, IWM or fem). One individual RDF data file results from one [process model](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data). 
 
-## Modelled processes of the Web4GenMet project
+##Overview of process models
+The material-intensive processes which the data was modellec accordingly are the following. 
+
+### Modelled processes of the Web4GenMet project
 - Laser powder bed fusion additive manufacturing process ([**LPBFprocess**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_EMI_LPBFprocess.png)) using AlSi10Mg metal powder, performed at EMI
 - Stress-relief annealing ([**HeatTreatment**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_EMI_HeatTreatment.png)) of the specimen manufactured in the LPBF process, performed at EMI
 - Materials characterization ([**TensileTest**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_IWM_TensileTest.png)), performed at IWM
 - Fatigue test on materials and defect analysis upon plastic deformation ([**LowCycleFatigue+Defects**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_IWM_LCF%2BDefects.png)) and upon elastic deformation ([**HighCycleFatigue+Defects**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_IWM_HCF%2BDefects.png)), performed at IWM
 
-## Modelled processes of the AluTrace project
+### Modelled processes of the AluTrace project
 - Measurement of the exact composition of the AlSi10Mg Powder used as input for the LPBF process ([**PowderComposition**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_fem_PowderComposition.png)), performed at fem
 - Laser powder bed fusion additive manufacturing process ([**LPBFprocess**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_fem_LPBFprocess.png)) using AlSi10Mg metal powder, performed at fem
 - Computer tomography and defects analysis of via LPBF manufactured parts ([**CT+Defects**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_fem_CT%2BDefects.png)), performed at fem
@@ -36,7 +39,7 @@ In the AluTrace project raw data was semantically modelled using the top-level o
 - Mechanical testing of the processed components ([**ComponentTest**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_IWM_ComponentTest.png)), performed at IWM
 
 ## Ontological resources
-The data was modeled with the following ontologies according to the material-intensive process in which they were generated:
+The data was modeled with the following ontologies according to the material-intensive process in which they were generated. The ontologies can be found in the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder.
 
 ![Ontologicalresources](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Ontologicalresources.png?raw=true)
 
