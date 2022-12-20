@@ -12,7 +12,7 @@ The workflow for semantic modeling of data is based on the [IWM-GDTool](https://
 
 Each process model is named just like the [individual RDF data file](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) it was used as template for. 
 
-An overview over the material-intensive processes that were modeled can be found with the [data explanation](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/RDF%20data%20and%20ontologies/README.md#overview-of-process-models).
+An overview of the material-intensive processes that were modeled can be found with the [data explanation](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/RDF%20data%20and%20ontologies/README.md#overview-of-process-models).
 
 ## Further Reading
 - [GDTool-documentation](https://gitlab.cc-asp.fraunhofer.de/gf7_public/iwm-gdtool/-/wikis/GDTool-documentation).
