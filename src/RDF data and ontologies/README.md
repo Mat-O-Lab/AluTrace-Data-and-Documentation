@@ -41,7 +41,7 @@ The data was modeled with the following ontologies according to the material-int
 ![Ontologicalresources](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Ontologicalresources.png?raw=true)
 
 **Top-level Ontology**  
-- [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
+- [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
   
 **Mid-level Ontology**  
 - [BWMD_mid](https://matportal.org/ontologies/BWMD-MID)  
