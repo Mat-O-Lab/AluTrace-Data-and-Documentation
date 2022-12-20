@@ -15,7 +15,7 @@ The project consortium, consisting of the [Fraunhofer Institute for High-Speed D
 Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research Institute for Precious Metals and Metal Chemistry](https://www.fem-online.de/) used legacy data and supplemented it specifically to generate RDF data, which is provided decentrally via the very first implementation of the [Materials Data Space](https://www.materials.fraunhofer.de/de/strategische-initativen/materials-data-space-/aktuelles-/erste-mds-implementierung-.html).  
 
 ## Organization of this repository
-This repository contains the deliverables of this project, including 
+This repository contains the semantic data produced in this project, including 
 - src: 
   - the RDF data and ontologies, [->What data is provied?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies), [->How to use this data for different purposes?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/RDF%20data%20and%20ontologies/README.md#how-to-use-this-data-for-different-purposes)
   - the SPARQL queries written for the project along with the returns of those SPARQL queries, [->What do the queries describe?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results)
@@ -39,7 +39,9 @@ Since the heterogeneous data is provided by different actors, compliance with th
 
 When using the decentralized data from the MDS, the design engineer is empowered to provide an optimized lightweight design that results in a weight reduction of 23 percent in comparison to the cast component. Furthermore, the lightweight design demonstrates significantly improved properties compared to a geometry designed according to the previous state-of-the-art in topology optimization without linkage of material and process data via the MDS.The AluTrace use case demonstrates the benefits of a cross-institutional data space in a real-world scenario that further exploits the AM lightweight potential.
 
-***The research data created in AluTrace is provided in this repository. It is organized to enable reuse for several [purposes](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/RDF%20data%20and%20ontologies/README.md#Use-cases-of-this-data).***
+***The semantic research data created in AluTrace and provided via the Materials Data Space is published in this repository. Every release is automatically published via Zenodo: XXX_inputDOIhere_XXX.***
+
+***The simulation data related to the process specific topology optimization algorithm is published separately via Zenodo: XXX_InputDOIhere_XXX*** 
 
 ### Further Reading
 - [Position Paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf) and a [Lightning Talk](https://www.youtube.com/watch?v=4FoApZMCrSw) on the implementation of the cross-institutional data space.
