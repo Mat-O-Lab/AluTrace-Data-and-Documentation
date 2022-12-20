@@ -38,7 +38,8 @@ When using the decentralized data from the MDS, the design engineer is empowered
 
 ## Organization of the semantic research data
 
-This repository is organized as follows
+This repository is organized as follows:
+
 - src: 
   - the RDF data and ontologies, [->What data is provied?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies), [->How to use this data for different purposes?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/RDF%20data%20and%20ontologies/README.md#how-to-use-this-data-for-different-purposes)
   - the SPARQL queries written for the project along with the returns of those SPARQL queries, [->What do the queries describe?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/SPARQL%20queries%20and%20results)
@@ -47,18 +48,14 @@ This repository is organized as follows
 - doc:
   - a supporting set of presentation slides.
 
-
-
 <!-- ## Evaluation of FAIRness of this data
 https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c52e8cf0d3def29462d8cb5
 -->
 
-
-
 ## Contributors (alphabetically)
 
-- Valerie Friedmann, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)    
 - Michael Dlugosch, [Fraunhofer EMI](https://www.emi.fraunhofer.de)  
+- Valerie Friedmann, [Fraunhofer IWM](https://www.iwm.fraunhofer.de)    
 - Elena Garcia Trelles, [Fraunhofer IWM](https://www.iwm.fraunhofer.de) 
 - Klaus Hoschke, [Fraunhofer EMI](https://www.emi.fraunhofer.de)
 - Martin Huschka, [Fraunhofer EMI](https://www.emi.fraunhofer.de) 
