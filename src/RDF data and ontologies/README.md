@@ -17,7 +17,7 @@ An overview of the available RDF and ontology files can be found in the followin
 
 ![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Datafiles.png?raw=true)
 
-In the AluTrace project raw data was semantically modelled using the top-level ontology [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released) and the mid-level ontology [BWMD_mid](https://matportal.org/ontologies/BWMD-MID), further explanation on the ontological ressources can be found in the [individual OWL ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder. The raw data originates from the previous Web4GenMet project and was purposefully supplemented with raw data produced in the AluTrace project itself. The raw data was semantically modeled per material-intensive process executed at the corresponding institution (EMI, IWM or fem). The colors highlight the institution where the owner of the data (EMI, IWM or fem). One individual RDF data file results from one [process model](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data). The modelled processes are:
+In the AluTrace project raw data was semantically modelled using the top-level ontology [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released) and the mid-level ontology [BWMD_mid](https://matportal.org/ontologies/BWMD-MID), further explanation on the ontological resources can be found in the [individual OWL ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder. The raw data originates from the previous Web4GenMet project and was purposefully supplemented with raw data produced in the AluTrace project itself. The raw data was semantically modeled per material-intensive process executed at the corresponding institution (EMI, IWM or fem). The colors highlight the institution where the owner of the data (EMI, IWM or fem). One individual RDF data file results from one [process model](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data). The modelled processes are:
 
 ## Modelled processes of the Web4GenMet project
 - Laser powder bed fusion additive manufacturing process ([**LPBFprocess**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_EMI_LPBFprocess.png)) using AlSi10Mg metal powder, performed at EMI
@@ -35,8 +35,10 @@ In the AluTrace project raw data was semantically modelled using the top-level o
 - Mechanical testing of the processed specimen ([**TensileTest**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_IWM_TensileTest.png)), performed at IWM
 - Mechanical testing of the processed components ([**ComponentTest**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_IWM_ComponentTest.png)), performed at IWM
 
-## Ontolgical ressources
-The data was modeled per process using the following ontologies:  
+## Ontological resources
+The data was modeled with the following ontologies according to the material-intensive process in which they were generated:
+
+![Ontologicalresources](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Ontologicalresources.png?raw=true)
 
 **Top-level Ontology**  
 - [BFO2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
@@ -48,8 +50,8 @@ The data was modeled per process using the following ontologies:
 - [BWMD_domain](https://matportal.org/ontologies/BWMD-DOMAIN)
 - [LPBFO](https://matportal.org/ontologies/LPBFO)
 - [emiHT](https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/LPBFO/-/raw/emiHT/EMIHT_ontology.owl) 
-- fatigue
-- defects
+- [fatigue](https://raw.githubusercontent.com/Mat-O-Lab/AluTrace-Data-and-Documentation/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files/fatigue.owl)
+- [defects](https://raw.githubusercontent.com/Mat-O-Lab/AluTrace-Data-and-Documentation/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files/defects.owl)
 
 # How to use this data for different purposes
 **Purpose1: I am not interested in RDF data but in the materials characteristics that were observed.**
