@@ -7,7 +7,7 @@ This is an introduction into the organization of the RDF data.In this folder you
 
 - In this very folder ([RDF data and ontologies](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/edit/main/src/RDF%20data%20and%20ontologies)) you find RDF files in which all individual data files and the necessary ontologies are merged. Different versions are provided. You can find the specialties of each version described in the image below.
 
-The multitude of different RDF files are provided so the data can be used for different [purposes](#How-to-use-this-data-for-different-purposes).
+The multitude of different RDF files is provided so the data can be used for different [purposes](#How-to-use-this-data-for-different-purposes).
 
 <!-- add link to purposes here -->
 ## Overview of RDF files
