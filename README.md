@@ -16,7 +16,7 @@ Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research In
 
 ***The semantic data created in AluTrace and provided via the Materials Data Space is additionaly provided as research data in this repository. Every release is automatically published via Zenodo using the [DOI: 10.5281/zenodo.7417561](https://doi.org/10.5281/zenodo.7417561).***
 
-***The design algorithm developed in AluTrace to optimize lightweight design makes use of the semantic data provided via the Materials Data Space. The simulation data created by this design algorithm is published separately using the [DOI: 10.5281/zenodo.7462692](https://doi.org/10.5281/zenodo.7462692)*** 
+***The design algorithm developed in AluTrace to optimize lightweight design makes use of the semantic data provided via the Materials Data Space. The simulation data created by this design algorithm is published separately using the [DOI: 10.5281/zenodo.7462692](https://doi.org/10.5281/zenodo.7462692).*** 
 
 ## Content of the data
 <!-- Here refer to use case and content documentation -->
