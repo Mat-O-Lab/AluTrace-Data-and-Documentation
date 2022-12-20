@@ -44,7 +44,7 @@ This repository is organized as follows:
   - the process models as templates for the individual RDF data, [->What is the process model useful for?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data)
 
 - doc:
-  - a supporting set of presentation slides.
+  - the public project report (german)
 
 <!-- ## Evaluation of FAIRness of this data
 https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c52e8cf0d3def29462d8cb5
