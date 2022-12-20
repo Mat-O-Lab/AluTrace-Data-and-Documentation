@@ -14,6 +14,22 @@ The aim of AluTrace was to digitally link data and knowledge silos that arise ov
 The project consortium, consisting of the [Fraunhofer Institute for High-Speed Dynamics, Ernst-Mach-Institut, EMI](https://www.emi.fraunhofer.de/en/business-units/automotive/research/digitales-datenmanagement.html), [Fraunhofer Institute for 
 Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research Institute for Precious Metals and Metal Chemistry](https://www.fem-online.de/) used legacy data and supplemented it specifically to generate RDF data, which is provided decentrally via the very first implementation of the [Materials Data Space](https://www.materials.fraunhofer.de/de/strategische-initativen/materials-data-space-/aktuelles-/erste-mds-implementierung-.html).  
 
+## Content of the data
+<!-- Here refer to use case and content documentation -->
+### Abstract
+Due to the great freedom of design, additive manufacturing (AM) offers enormous potential for lightweight construction. In order to harness this potential, it is crucial to integrate knowledge between the individual stages of the AM value chain. By digitally linking AM process and product data, lightweight design and production can be further optimized in economical and ecological terms.  
+
+The use case discussed here describes a design engineer who optimizes an aluminum component originally manufactured by casting with regard to lightweight design by means of topology optimization for AM. A process-specific topology optimization algorithm (PSTO) provides an optimized design and also knowledge about the best suited combination of AM-machine and corresponding process parameters. As input for this design algorithm, data about mechanical material characteristics, AM process parameters and post-processing information is required. Such heterogeneous data needs to be automatically integrated after being retrieved from a cross-institutional data space.  
+
+Since the heterogeneous data is provided by different actors, compliance with the FAIR principles is paramount. To meet this need, a data space architecture based on the [International Data Spaces (IDS) Reference Architecture Model](https://github.com/International-Data-Spaces-Association/IDS-RAM_4_0) was designed and implemented. By doing so, the authors create the very first instance of the [Materials Data Space® (MDS)](https://www.materials.fraunhofer.de/de/strategische-initativen/materials-data-space-/aktuelles-/erste-mds-implementierung-.html). Using the MDS in this context ensures findability (F) of the decentralized data, secure access (A) to the data via standardized protocols and a trustful ecosystem, data and systems interoperability (I) for multilateral data sharing and reusability (R) of the data due to rich metadata in form of knowledge graphs. The knowledge graphs describe the entire AM process chain semantically and embed the resulting data in its context through an ontology-based process model. This semantic metadata enables data linking in the sense of a cross-institutional data mesh with the aim of automated analysis for an intelligent lightweight design via PSTO.
+
+When using the decentralized data from the MDS, the design engineer is empowered to provide an optimized lightweight design that results in a weight reduction of 23 percent in comparison to the cast component. Furthermore, the lightweight design demonstrates significantly improved properties compared to a geometry designed according to the previous state-of-the-art in topology optimization without linkage of material and process data via the MDS.The AluTrace use case demonstrates the benefits of a cross-institutional data space in a real-world scenario that further exploits the AM lightweight potential.
+
+### Further Reading
+- [Position Paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf) and a [Lightning Talk](https://www.youtube.com/watch?v=4FoApZMCrSw) on the implementation of the cross-institutional data space.
+- Final [Project Report (German)](doc/dummydoc.txt).
+- [Technical Article (German)](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/) with focus on the design algorithm.
+
 ## Organization of this repository
 This repository contains the semantic data produced in this project, including 
 - src: 
@@ -28,27 +44,9 @@ This repository contains the semantic data produced in this project, including
 https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c52e8cf0d3def29462d8cb5
 -->
 
-## Content of the data
-<!-- Here refer to use case and content documentation -->
-### Abstract
-Due to the great freedom of design, additive manufacturing (AM) offers enormous potential for lightweight construction. In order to harness this potential, it is crucial to integrate knowledge between the individual stages of the AM value chain. By digitally linking AM process and product data, lightweight design and production can be further optimized in economical and ecological terms.  
-
-The use case discussed here describes a design engineer who optimizes an aluminum component originally manufactured by casting with regard to lightweight design by means of topology optimization for AM. A process-specific topology optimization algorithm (PSTO) provides an optimized design and also knowledge about the best suited combination of AM-machine and corresponding process parameters. As input for this design algorithm, data about mechanical material characteristics, AM process parameters and post-processing information is required. Such heterogeneous data needs to be automatically integrated after being retrieved from a cross-institutional data space.  
-
-Since the heterogeneous data is provided by different actors, compliance with the FAIR principles is paramount. To meet this need, a data space architecture based on the [International Data Spaces (IDS) Reference Architecture Model](https://github.com/International-Data-Spaces-Association/IDS-RAM_4_0) was designed and implemented. By doing so, the authors create the very first instance of the [Materials Data Space® (MDS)](https://www.materials.fraunhofer.de/de/strategische-initativen/materials-data-space-/aktuelles-/erste-mds-implementierung-.html). Using the MDS in this context ensures findability (F) of the decentralized data, secure access (A) to the data via standardized protocols and a trustful ecosystem, data and systems interoperability (I) for multilateral data sharing and reusability (R) of the data due to rich metadata in form of knowledge graphs. The knowledge graphs describe the entire AM process chain semantically and embed the resulting data in its context through an ontology-based process model. This semantic metadata enables data linking in the sense of a cross-institutional data mesh with the aim of automated analysis for an intelligent lightweight design via PSTO.
-
-When using the decentralized data from the MDS, the design engineer is empowered to provide an optimized lightweight design that results in a weight reduction of 23 percent in comparison to the cast component. Furthermore, the lightweight design demonstrates significantly improved properties compared to a geometry designed according to the previous state-of-the-art in topology optimization without linkage of material and process data via the MDS.The AluTrace use case demonstrates the benefits of a cross-institutional data space in a real-world scenario that further exploits the AM lightweight potential.
-
-***The semantic research data created in AluTrace and provided via the Materials Data Space is published in this repository. Every release is automatically published via Zenodo: XXX_inputDOIhere_XXX.***
+***The semantic research data created in AluTrace is published in this repository. Every release is automatically published via Zenodo: XXX_inputDOIhere_XXX.***
 
 ***The simulation data related to the process specific topology optimization algorithm is published separately via Zenodo: XXX_InputDOIhere_XXX*** 
-
-### Further Reading
-- [Position Paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf) and a [Lightning Talk](https://www.youtube.com/watch?v=4FoApZMCrSw) on the implementation of the cross-institutional data space.
-- Final [Project Report (German)](doc/dummydoc.txt).
-- [Technical Article (German)](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/) with focus on the design algorithm.
-
-
 
 ## Contributors (alphabetically)
 
