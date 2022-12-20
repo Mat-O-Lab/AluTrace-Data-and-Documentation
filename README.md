@@ -34,7 +34,7 @@ When using the decentralized data from the MDS, the design engineer is empowered
 - Final [Project Report (German)](doc/dummydoc.txt).
 - [Technical Article (German)](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/) with focus on the design algorithm.
 
-## Organization of the semantic research data
+## Organization of this repo
 
 This repository is organized as follows:
 
