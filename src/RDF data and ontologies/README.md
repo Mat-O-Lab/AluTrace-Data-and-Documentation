@@ -82,12 +82,14 @@ In the [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-a
   
 **Purpose3: I want to query the individual RDF data.**
   - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder and choose the data you want.  
-  -  The structure of the RDF data can be explored via the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data).
+  - In order to define a query based on the structure of the RDF data, the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data) help to explore the structure of the RDF data. 
   
 **Purpose3-1: I want to use the individual RDF data and experiment with the ontologies chosen for the RDF data.**
+  - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder and choose the data you want.  
   - Please direct yourself to the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder and choose the ontologies you need. Remember that all data uses bfo2 and BWMD_mid, the corresponding domain-ontology for each data file you can find in the image above.   
     
 **Purpose3-2: I want to use the individual RDF data and and experiment with the alignment of the RDF data.**
+  - Please direct yourself to the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) folder and choose the data you want.  
   - You can find prepared alignments in the folder [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files). 
 
 **Purpose4: I want to use the individual RDF data from different sources to experiment with decetralized data management architectures.**
