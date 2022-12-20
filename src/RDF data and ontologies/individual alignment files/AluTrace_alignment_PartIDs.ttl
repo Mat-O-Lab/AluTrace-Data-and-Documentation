@@ -1,32 +1,5 @@
-@prefix : <C:/Users/trell/Desktop/DMD4Future/UpdatedDigiWorkflow/GDTool/mdbw_rdf/tests_trell/MergedOntologyLCF_IWM_v2#> .
-@prefix schema: <http://schema.org/> .
-@prefix lpbfo: <https://www.emi.fraunhofer.de/ontologies/LPBFO#> .
-@prefix def: <http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/defects#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix emiLPBF: <https://www.emi.fraunhofer.de/data/AluTrace/emiLPBF/> .
-@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
-@prefix mid: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix FT: <http://www.materials.fraunhofer.de/ontologies/AluTrace_ontology/fatigue#> .
-@prefix emiHTdata: <https://www.emi.fraunhofer.de/data/AluTrace/emiHT/> .
-@prefix path: <http://www.ontotext.com/path#> .
-@prefix graph_designer: <https://www.materials.fraunhofer.de/ontologies/graph_designer#> .
-@prefix AluTrace: <https://www.emi.fraunhofer.de/data/AluTrace/> .
-@prefix terms: <http://purl.org/dc/terms/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix emislm: <https://www.emi.fraunhofer.de/ontologies/EMISLM_ontology#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
-@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix bwmd_merged: <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix domain: <https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/domain#> .
-@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
 
 <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_48abee5e-7599-4c33-b9be-7ea647bf07b7>
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_48abee5e-7599-4c33-b9be-7ea647bf07b7>,
@@ -234,23 +207,83 @@
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_035d7490-de28-4a39-92b6-a8e861a2e50d>,
     <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_feadf8f8-ae05-42cb-9452-493f0822d2d9> .
 
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_12> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63_1>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_75f551bc-7b89-4b9f-b836-8d5ea2733358> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63_2>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b01e9d9e-0d24-414a-8fa3-bc8317faf13d> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_154fac48-f976-4b1a-993c-f6150bfe8091>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_154fac48-f976-4b1a-993c-f6150bfe8091>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_13> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_154fac48-f976-4b1a-993c-f6150bfe8091_1>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_d3a0eb68-e976-42c0-bc6f-d861ee7dfe97> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_6124cb95-cece-4f25-86c6-0eda4ce44db3>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_6124cb95-cece-4f25-86c6-0eda4ce44db3>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_14> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_6124cb95-cece-4f25-86c6-0eda4ce44db3_1>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_017fb9fa-f8fa-48eb-a2f4-c87471c3ced2> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_868c7953-3422-4193-8bcf-45046c6676c4>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_868c7953-3422-4193-8bcf-45046c6676c4>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_15> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_868c7953-3422-4193-8bcf-45046c6676c4_1>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_a86129b4-3974-47ce-b8f7-31c9bfe2c17f> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_1d3eda63-123f-424a-b066-09a0938a46fc>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_1d3eda63-123f-424a-b066-09a0938a46fc>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_16> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_1d3eda63-123f-424a-b066-09a0938a46fc_1>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_78784658-e711-4e6f-a93b-bd509d77c161> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_22> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_1>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#MetallographicSpecimen__1_05f2a0f8-12b8-4e22-a16b-62c48e770604> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_2>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_dbf1af1d-ae24-4ef1-a9e6-0709d81c7319> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_3>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_2a28deb4-6c5e-40f0-93ed-632d0d4901ed> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_4>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_c8358ddd-8a2f-483f-a0b7-2604055beb86> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_5>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_46e285a8-8479-408a-ac77-30958b623c12> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_6>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_3529aa0c-7a21-4d5f-9521-8b620ad04145> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_fdf4628f-fe5d-45a9-87ab-8c6407aa193f>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#Component__1+%28before+test%29_1557d7dd-8b26-4efd-8e32-ab8bcef450c2> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_d5b2c072-0658-4916-9943-f394996aeee6>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#Component__1+%28before+test%29_ae8ad2c6-162b-4b02-a4b2-0f9c4fd9f8d6> .
+
+<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_41385712-98cb-4f6e-a1c1-9279f63681d5>
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_52d3e31b-2794-4e7b-b2f0-b4c77f681101> .
+
 <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_e9b3c45d-9d00-4f3e-9b6e-276cb442d7f1>
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#Component__1+%28before+test%29_1634aedb-9cfe-4a7e-8450-1517c9c39d7e> .
 
 <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_3c545b79-071a-4f8a-8ee7-c8d11115c9ca>
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_f4a90bb6-2cf3-467b-9f8d-6ba4f97f678a> .
 
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_41385712-98cb-4f6e-a1c1-9279f63681d5>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_52d3e31b-2794-4e7b-b2f0-b4c77f681101> .
-
 <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_b4c0c594-81ca-4d5f-bb53-884b52a07ccc>
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_08619000-d4f3-41dc-b0bf-fe8f48250f24> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_d5b2c072-0658-4916-9943-f394996aeee6>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#Component__1+%28before+test%29_ae8ad2c6-162b-4b02-a4b2-0f9c4fd9f8d6> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2_fdf4628f-fe5d-45a9-87ab-8c6407aa193f>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#Component__1+%28before+test%29_1557d7dd-8b26-4efd-8e32-ab8bcef450c2> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_5590d07f-2cb2-4b0b-a927-a8860a1bb996_1>
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#CylindricalTensileTestSpecimen__1+%28before+test%29_c257ac9d-c7b6-47b1-99d2-4bcf74fefaf5> .
@@ -328,24 +361,24 @@
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/BWMD_merged_domain#Component__1+%28before+test%29_91c61f84-5e58-45bb-a62d-8740d3e98f5b> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_12>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_12>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63> .
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_12> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_13>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_13>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_154fac48-f976-4b1a-993c-f6150bfe8091> .
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_154fac48-f976-4b1a-993c-f6150bfe8091>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_13> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_14>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_14>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_6124cb95-cece-4f25-86c6-0eda4ce44db3> .
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_6124cb95-cece-4f25-86c6-0eda4ce44db3>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_14> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_15>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_15>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_868c7953-3422-4193-8bcf-45046c6676c4> .
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_868c7953-3422-4193-8bcf-45046c6676c4>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_15> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_16>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_16>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_1d3eda63-123f-424a-b066-09a0938a46fc> .
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_1d3eda63-123f-424a-b066-09a0938a46fc>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_16> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_17>
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_574126d6-e1f6-4107-b7a5-2aab7e499b9f> .
@@ -363,8 +396,8 @@
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1_41385712-98cb-4f6e-a1c1-9279f63681d5> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_22>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_22>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f> .
+  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f>,
+    <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_22> .
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_24>
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1_99f5bd39-fb26-445d-9626-bef2b7a761a9> .
@@ -446,63 +479,3 @@
 
 <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_4602a36d-f4a0-4213-95c6-36c54e739cd6_6>
   owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1_f692c8e9-26bb-4449-8779-3a7220a0494f> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_12>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63_1>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_75f551bc-7b89-4b9f-b836-8d5ea2733358> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5e84d67-9c58-4d62-953e-3611c1aaaa63_2>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b01e9d9e-0d24-414a-8fa3-bc8317faf13d> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_154fac48-f976-4b1a-993c-f6150bfe8091>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_13>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_154fac48-f976-4b1a-993c-f6150bfe8091> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_154fac48-f976-4b1a-993c-f6150bfe8091_1>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_d3a0eb68-e976-42c0-bc6f-d861ee7dfe97> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_6124cb95-cece-4f25-86c6-0eda4ce44db3>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_14>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_6124cb95-cece-4f25-86c6-0eda4ce44db3> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_6124cb95-cece-4f25-86c6-0eda4ce44db3_1>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_017fb9fa-f8fa-48eb-a2f4-c87471c3ced2> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_868c7953-3422-4193-8bcf-45046c6676c4>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_15>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_868c7953-3422-4193-8bcf-45046c6676c4> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_868c7953-3422-4193-8bcf-45046c6676c4_1>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_a86129b4-3974-47ce-b8f7-31c9bfe2c17f> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_1d3eda63-123f-424a-b066-09a0938a46fc>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_16>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_1d3eda63-123f-424a-b066-09a0938a46fc> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_1d3eda63-123f-424a-b066-09a0938a46fc_1>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_78784658-e711-4e6f-a93b-bd509d77c161> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f>
-  owl:sameAs <https://www.emi.fraunhofer.de/ontologies/LPBFO#Separated+Part_08086b36-d12a-4145-a045-9f024ce990f8_22>,
-    <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_1>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#MetallographicSpecimen__1_05f2a0f8-12b8-4e22-a16b-62c48e770604> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_2>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_dbf1af1d-ae24-4ef1-a9e6-0709d81c7319> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_3>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_2a28deb4-6c5e-40f0-93ed-632d0d4901ed> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_4>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_c8358ddd-8a2f-483f-a0b7-2604055beb86> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_5>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_46e285a8-8479-408a-ac77-30958b623c12> .
-
-<http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__2+%28after+process%29_b5fcf1bb-afa6-4b1c-9698-2d44766d796f_6>
-  owl:sameAs <http://www.semanticweb.org/trell/ontologies/2020/10/merged_HDF5#TechnologicalProduct__1+%28before+process%29_3529aa0c-7a21-4d5f-9521-8b620ad04145> .
