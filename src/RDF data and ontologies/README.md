@@ -1,7 +1,6 @@
 # What data is provided?
 This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [purposes](#How-to-use-this-data-for-different-purposes). 
 
-## Overview of RDF files
 In this folder you can find: 
 - the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) (RDF) that contain the data instances. In these files ontology concepts are used but do not contain their definitions. 
 - The [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) (OWL) that contain the ontological definitions that were used to model the data semantically. The [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released), the [BWMD_mid](https://matportal.org/ontologies/BWMD-MID) and one domain ontology per RDF data set was used. The corresponding domain ontology of each RDF data file can be exctracted from the image above and is described in more detail in the [ontology folder](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files). 
@@ -12,7 +11,7 @@ In this folder you can find:
 The multitude of different RDF files are provided so the data can be used for different [purposes](#How-to-use-this-data-for-different-purposes).
 
 <!-- add link to purposes here -->
-
+## Overview of RDF files
 An overview of the available RDF and ontology files can be found in the following image:
 
 ![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Datafiles.png?raw=true)
