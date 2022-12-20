@@ -2,12 +2,14 @@
 This is an introduction into the organization of the RDF data. The data in this repository is organized to be reused for different [purposes](#How-to-use-this-data-for-different-purposes). 
 
 ## Overview of RDF files
-In this repo you will find 
+In this folder you can find: 
 - the [individual RDF data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) that contain the data instances. In these files ontology concepts are used but do not contain their definitions. 
-- The [individual OWL ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) that contain the ontological definitions that were used to model the data semantically. The bfo2, the BWMD_mid and one domain ontology per RDF data set was used. The corresponding domain ontology of each RDF data file can be exctracted from the image above. 
-- The [individual RDF alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) serve to link different RDF data with each other semantically, e.g between nodes that represent the same specimen/component (identified by the same PartID), are provided. 
+- The [individual OWL ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) that contain the ontological definitions that were used to model the data semantically. The [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released), the [BWMD_mid](https://matportal.org/ontologies/BWMD-MID) and one domain ontology per RDF data set was used. The corresponding domain ontology of each RDF data file can be exctracted from the image above and is described in more detail in the [ontology folder](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files). 
+- The [individual RDF alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) serve to link different RDF data with each other semantically, e.g to link nodes that represent the same specimen/component with the same PartID but have different IRIs. 
 
-- In this very folder ([RDF data and ontologies](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/edit/main/src/RDF%20data%20and%20ontologies)) you find RDF files in which all individual data files and the necessary ontologies are merged. Different versions are provided. You can find the specialties of each version described in the image above. The multitude of RDF files is provided so the data can be used for different purposes, that are described below.
+- In this very folder ([RDF data and ontologies](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/edit/main/src/RDF%20data%20and%20ontologies)) you find RDF files in which all individual data files and the necessary ontologies are merged. Different versions are provided. You can find the specialties of each version described in the image below.
+
+The multitude of different RDF files are provided so the data can be used for different [purposes](#How-to-use-this-data-for-different-purposes).
 
 <!-- add link to purposes here -->
 
