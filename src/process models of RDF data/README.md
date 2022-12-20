@@ -1,5 +1,5 @@
 # What is the process model useful for?
-The workflow for semantic modeling of data is based on the [IWM-GDTool](https://gitlab.cc-asp.fraunhofer.de/gf7_public/iwm-gdtool). According to the author is GDTool a lightweight approach to creating ontology-oriented datasets in a scientific workflow environment. The tool supports three steps:
+The workflow for semantic modeling of data is based on the [IWM-GDTool](https://gitlab.cc-asp.fraunhofer.de/gf7_public/iwm-gdtool). According to the author, GDTool is a lightweight approach to creating ontology-oriented datasets in a scientific workflow environment. The tool supports three steps:
 
 1. Creation of a process model that is based on an OWL-ontology and to be used with the [Knowledgebase Builder](https://inforapid.org/webapp/login.php). In the Knowledgebase Builder the user draws a process schema similar to a SPARQL INSERT statement. This process model is a template for a knowledge graph and defines its structure.  
 
