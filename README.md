@@ -18,6 +18,9 @@ Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research In
 
 ***The design algorithm developed in AluTrace to optimize lightweight design makes use of the semantic data provided via the Materials Data Space. The simulation data created by this design algorithm is published separately using the [DOI: 10.5281/zenodo.7462692](https://doi.org/10.5281/zenodo.7462692).*** 
 
+## License
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
 ## Content of the data
 <!-- Here refer to use case and content documentation -->
 ### Abstract
