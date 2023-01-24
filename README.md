@@ -72,13 +72,13 @@ If you have any questions or feedback please don't hesitate to contact us!
 **Martin Huschka**, Michael Dlugosch, Klaus Hoschke, Sankalp Patil  
 Fraunhofer Institute for High-Speed Dynamics, Ernst-Mach-Institut, EMI  
 Ernst-Zermelo-Str. 4, 79104 Freiburg, Germany  
-*first-name* [.] *last-name* [at] emi [dot] fraunhofer [dot] de  
+*first-name* [dot] *last-name* [at] emi [dot] fraunhofer [dot] de  
 [www.emi.fraunhofer.de](https://www.emi.fraunhofer.de) 
 
 **Christoph Schweizer**, Valerie Friedmann, Johannes Preußner, Elena Garcia Trelles  
 Fraunhofer Institute for Mechanics of Materials IWM  
 Wöhlerstr. 11, 79108 Freiburg, Germany    
-*first-name* [.] *last-name* [at] iwm [dot] fraunhofer [dot] de    
+*first-name* [dot] *last-name* [at] iwm [dot] fraunhofer [dot] de    
 [www.iwm.fraunhofer.de](https://www.iwm.fraunhofer.de) 
 
 **Ulrich Klotz**, Dario Tiberto  
