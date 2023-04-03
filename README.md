@@ -3,7 +3,6 @@
 <!-- to dos:
 - Web4GenMet Info in docs
 - AluTrace Infos in docs
-- Describe alignments them!!
 -->
 
 
@@ -22,7 +21,7 @@ Mechanics of Materials IWM](https://www.iwm.fraunhofer.de/) and [fem Research In
 https://creativecommons.org/licenses/by-sa/4.0
 
 ## Content of the data
-<!-- Here refer to use case and content documentation -->
+
 ### Abstract
 Due to the great freedom of design, additive manufacturing (AM) offers enormous potential for lightweight construction. In order to harness this potential, it is crucial to integrate knowledge between the individual stages of the AM value chain. By digitally linking AM process and product data, lightweight design and production can be further optimized in economical and ecological terms.  
 
@@ -33,9 +32,13 @@ Since the heterogeneous data is provided by different actors, compliance with th
 When using the decentralized data from the MDS, the design engineer is empowered to provide an optimized lightweight design that results in a weight reduction of 23 percent in comparison to the cast component. Furthermore, the lightweight design demonstrates significantly improved properties compared to a geometry designed according to the previous state-of-the-art in topology optimization without linkage of material and process data via the MDS. The AluTrace use case demonstrates the benefits of a cross-institutional data space in a real-world scenario that further exploits the AM lightweight potential.
 
 ### Further Literature
+#### AluTrace Project
 - [Position Paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf) and a [Lightning Talk](https://www.youtube.com/watch?v=4FoApZMCrSw) on the implementation of the cross-institutional data space.
 - Final [Project Report (German)](doc/dummydoc.txt).
 - [Technical Article (German)](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/) with focus on the design algorithm.
+####Web4GenMet Project
+- [Journal Paper](https://doi.org/10.3390/met8070491) on the additive manufacturing process and parameters used within the Web4GenMet project
+- [Conference Paper] (https://doi.org/10.1051/matecconf/202032607003) on the experimental procedure within the Web4GenMet project
 
 ## Organization of this repo
 
@@ -47,7 +50,7 @@ This repository is organized as follows:
   - the process models as templates for the individual RDF data, [->What is the process model useful for?](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data)
 
 - doc:
-  - the public project report (german)
+  - the [public project report (german)](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/doc/AluTrace_Ergebnisbericht-öffentlich.pdf)
 
 <!-- ## Evaluation of FAIRness of this data
 https://www.fosteropenscience.eu/learning/assessing-the-fairness-of-data/#/id/5c52e8cf0d3def29462d8cb5

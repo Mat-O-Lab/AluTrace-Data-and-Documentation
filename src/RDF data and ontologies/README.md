@@ -1,9 +1,9 @@
 # What data is provided?
-This is an introduction into the organization of the RDF data.In this folder you can find:   
+This is an introduction into the organization of the RDF data. In this folder you can find:   
 
 - the [individual data files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20data%20files) (RDF) that contain the data instances. In these files ontology concepts are used but do not contain their definitions. 
-- The [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) (OWL) that contain the ontological definitions that were used to model the data semantically. The [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released), the [BWMD_mid](https://matportal.org/ontologies/BWMD-MID) and one domain ontology per RDF data set was used. The corresponding domain ontology of each RDF data file can be exctracted from the image above and is described in more detail in the [ontology folder](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files). 
-- The [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) (RDF) serve to link different RDF data with each other semantically, e.g to link nodes that represent the same specimen/component with the same PartID but have different IRIs. 
+- The [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) (OWL) that contain the ontological definitions that were used to model the data semantically. The [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released), the [BWMD_mid](https://matportal.org/ontologies/BWMD-MID) and one domain ontology per RDF data set was used. The corresponding domain ontology of each RDF data file can be exctracted from the image below and is described in more detail in the [ontology folder](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files). 
+- The [individual alignment files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20alignment%20files) (RDF) serve to link different RDF data with each other semantically, e.g. to link nodes that represent the same specimen/component with the same PartID but that have different IRIs. 
 
 - In this very folder ([RDF data and ontologies](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/edit/main/src/RDF%20data%20and%20ontologies)) you find RDF files in which all individual data files and the necessary ontologies are merged. Different versions are provided. You can find the specialties of each version described in the image below.
 
@@ -13,12 +13,12 @@ The multitude of different RDF files is provided so the data can be used for dif
 ## Overview of RDF files
 An overview of the available RDF and ontology files can be found in the following image:
 
-![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Datafiles.png?raw=true)
+![Datafiles](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/img/Datafiles.png?raw=true)
 
-In the AluTrace project raw data was semantically modelled using the top-level ontology [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released) and the mid-level ontology [BWMD_mid](https://matportal.org/ontologies/BWMD-MID). The raw data originates from the previous Web4GenMet project and was purposefully supplemented with raw data produced in the AluTrace project itself. The raw data was semantically modeled per material-intensive process executed at the corresponding institution (EMI, IWM or fem). The colors highlight the institution where the owner of the data (EMI, IWM or fem). One individual RDF data file results from one [process model](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data). 
+In the AluTrace project raw data was semantically modelled using the top-level ontology [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released) and the mid-level ontology [BWMD_mid](https://matportal.org/ontologies/BWMD-MID). The raw data originates from the previous Web4GenMet project and was purposefully supplemented with raw data produced in the AluTrace project itself. The raw data was semantically modeled per material-intensive process executed at the corresponding institution (EMI, IWM or fem). The colors highlight the institution which is the owner of the data (EMI, IWM or fem). One individual RDF data file results from one [process model](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data). 
 
 ## Overview of process models  
-The data was modeled using the following material-intensive processes that generated it. The process models themselves can be found in the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data) folder. 
+The data was modeled according to the following material-intensive processes in which it was generated. The process models themselves can be found in the [process models of RDF data](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/process%20models%20of%20RDF%20data) folder. 
 
 ### Modelled processes of the Web4GenMet project
 - Laser powder bed fusion additive manufacturing process ([**LPBFprocess**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_EMI_LPBFprocess.png)) using AlSi10Mg metal powder, performed at EMI
@@ -27,7 +27,7 @@ The data was modeled using the following material-intensive processes that gener
 - Fatigue test on materials and defect analysis upon plastic deformation ([**LowCycleFatigue+Defects**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_IWM_LCF%2BDefects.png)) and upon elastic deformation ([**HighCycleFatigue+Defects**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/Web4GenMet_IWM_HCF%2BDefects.png)), performed at IWM
 
 ### Modelled processes of the AluTrace project
-- Measurement of the exact composition of the AlSi10Mg Powder used as input for the LPBF process ([**PowderComposition**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_fem_PowderComposition.png)), performed at fem
+- Measurement of the exact composition of the AlSi10Mg powder used as input for the LPBF process ([**PowderComposition**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_fem_PowderComposition.png)), performed at fem
 - Laser powder bed fusion additive manufacturing process ([**LPBFprocess**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_fem_LPBFprocess.png)) using AlSi10Mg metal powder, performed at fem
 - Computer tomography and defects analysis of via LPBF manufactured parts ([**CT+Defects**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_fem_CT%2BDefects.png)), performed at fem
 - Separation of specimen/components and preparation for further analysis ([**Separating**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_IWM_Separating.png)) , performed at IWM
@@ -37,9 +37,9 @@ The data was modeled using the following material-intensive processes that gener
 - Mechanical testing of the processed components ([**ComponentTest**](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/src/process%20models%20of%20RDF%20data/AluTrace_IWM_ComponentTest.png)), performed at IWM
 
 ## Overview of ontological resources
-The data was modeled with the following ontologies according to the material-intensive process in which they were generated. The ontologies can be found in the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder.
+The data was modeled with the following ontologies according to the material-intensive process in which it was generated. The ontologies can be found in the [individual ontology files](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/src/RDF%20data%20and%20ontologies/individual%20ontology%20files) folder.
 
-![Ontologicalresources](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/Ontologicalresources.png?raw=true)
+![Ontologicalresources](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/blob/main/doc/img/Ontologicalresources.png?raw=true)
 
 **Top-level Ontology**  
 - [bfo2](https://github.com/bfo-ontology/BFO/wiki#news-bfo-20-now-released)  
