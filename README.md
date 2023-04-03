@@ -34,7 +34,7 @@ When using the decentralized data from the MDS, the design engineer is empowered
 ### Further Literature
 #### AluTrace Project
 - [Position paper](https://www.trusts-data.eu/wp-content/uploads/2022/06/01-The-AluTrace-Use-Case-Harnessing-Lightweight-Design-Potentials-via-the-Materials-Data-Space.pdf) and a [lightning talk](https://www.youtube.com/watch?v=4FoApZMCrSw) on the implementation of the cross-institutional data space
-- Final [project report (german)](doc/dummydoc.txt)
+- Final [project report (german)](https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/main/doc/AluTrace_Ergebnisbericht-öffentlich.pdf)
 - [Technical article (german)](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/) with focus on the design algorithm
 
 #### Web4GenMet Project
