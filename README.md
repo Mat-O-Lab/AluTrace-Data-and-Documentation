@@ -37,9 +37,9 @@ When using the decentralized data from the MDS, the design engineer is empowered
 - Final [Project Report (German)](doc/dummydoc.txt).
 - [Technical Article (German)](https://www.ingenieur.de/fachmedien/wt-werkstattstechnik/fraunhofer-gesellschaft/leichtbau-datenvernetzung-fuer-additive-fertigung/) with focus on the design algorithm.
 
-####Web4GenMet Project
+#### Web4GenMet Project
 - [Journal Paper](https://doi.org/10.3390/met8070491) on the additive manufacturing process and parameters used within the Web4GenMet project
-- [Conference Paper] (https://doi.org/10.1051/matecconf/202032607003) on the experimental procedure within the Web4GenMet project
+- [Conference Paper](https://doi.org/10.1051/matecconf/202032607003) on the experimental procedure within the Web4GenMet project
 
 ## Organization of this repo
 
