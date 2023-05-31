@@ -16,4 +16,4 @@ An overview of the material-intensive processes that were modeled can be found w
 
 ## Further Reading
 - [GDTool-documentation](https://gitlab.cc-asp.fraunhofer.de/gf7_public/iwm-gdtool/-/wikis/GDTool-documentation).
-- [Digital Workflow using the GDTool](https://gitlab.cc-asp.fraunhofer.de/gf7_public/iwm-gdtool/-/wikis/GDTool-documentation)
+- [Digital Workflow using the GDTool](https://gitlab.cc-asp.fraunhofer.de/gf7_public/iwm-gdtool/-/wikis/DIGITAL-WORKFLOW-STEPS-USING-THE-GRAPH-DESIGNER-TOOL)
