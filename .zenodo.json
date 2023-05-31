@@ -66,9 +66,5 @@
         "name": "Dario Tiberto"
       }
     ], 
-    "access_right": "open", 
-    "resource_type": {
-      "type": "dataset", 
-      "title": "Dataset"
-    }
+    "access_right": "open"
   }
