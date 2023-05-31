@@ -76,13 +76,12 @@
       {
         "scheme": "url", 
         "identifier": "https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/v1.0.1", 
-        "relation": "isDerivedFrom", 
-        "resource_type": "dataset"
+        "relation": "isDerivedFrom"
       }, 
       {
         "scheme": "doi", 
         "identifier": "10.5281/zenodo.7462692", 
-        "relation": "isSupplementedBy", 
+        "relation": "isSupplementedBy"
       }, 
       {
         "scheme": "doi", 
