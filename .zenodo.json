@@ -66,5 +66,25 @@
         "name": "Dario Tiberto"
       }
     ], 
-    "access_right": "open"
+    "access_right": "open",
+    "related_identifiers": [
+      {
+        "scheme": "url", 
+        "identifier": "https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation/tree/v0.0.5", 
+        "relation": "isDerivedFrom", 
+        "resource_type": "dataset"
+      }, 
+      {
+        "scheme": "doi", 
+        "identifier": "10.5281/zenodo.7462692", 
+        "relation": "isSupplementedBy", 
+        "resource_type": "dataset"
+      }, 
+      {
+        "scheme": "doi", 
+        "identifier": "10.5281/zenodo.7417560", 
+        "relation": "isAlternateIdentifier"
+      }
+    ]
+  }
   }
