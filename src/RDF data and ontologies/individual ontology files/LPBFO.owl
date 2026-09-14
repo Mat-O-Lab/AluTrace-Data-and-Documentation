@@ -12,12 +12,16 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://www.emi.fraunhofer.de/ontologies/LPBFO">
-        <owl:versionIRI rdf:resource="https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/LPBFO/-/raw/v1.1.9/LPBFO.owl"/>
-        <owl:imports rdf:resource="https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology/-/raw/v1.0.10/BWMD_mid.owl"/>
-        <mid:BWMD_00834 xml:lang="en">Martin Jäcklein (Fraunhofer EMI)</mid:BWMD_00834>
-        <obo:IAO_0000232 xml:lang="en">v1.1.9 (2022-09-20): Added &quot;hasEnvironmentalImpact&quot; for carbon footprint labelling. Deleted &quot;hasQuality&quot; in LPBFO since appearance in BWMD_mid.
-v1.1.8 (2022-09-06): Added &quot;CO2Emission&quot; for carbon footprint labelling.
+<owl:Ontology rdf:about="https://www.emi.fraunhofer.de/ontologies/LPBFO">
+        <owl:imports rdf:resource="https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology/-/raw/master/BWMD_mid.owl"/>
+
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Mat-O-Lab/AluTrace-Data-and-Documentation"/>
+        <terms:bibliographicCitation>Huschka, M., &amp; Jäcklein, M. LPBF Ontology. Fraunhofer Institute for High-Speed Dynamics, Ernst-Mach-Institut, EMI. Published in: Mat-O-Lab, AluTrace Data and Documentation. Zenodo. https://doi.org/10.5281/zenodo.7417560</terms:bibliographicCitation> 
+
+        <obo:IAO_0000232 xml:lang="en">v1.1.10 (2026-09-14): Added explicit CC BY-SA 4.0 license metadata and rdfs:seeAlso link to AluTrace GitHub repository.
+v1.1.9 (2022-09-20): Added "hasEnvironmentalImpact" for carbon footprint labelling. Deleted "hasQuality" in LPBFO since appearance in BWMD_mid.
+v1.1.8 (2022-09-06): Added "CO2Emission" for carbon footprint labelling.
 v1.1.7 (2021-11-30): Added classes regarding the operation of the LPBF process. 
 v1.1.6 (2021-11-16): Added the classes of LCA by Yu-Sheng Tang
 v1.1.5 (2021-11-16): Added SliceLinesPerLayerFile, RecoaterDirection and SealingOfBuildSpace for ADAM project by Martin Huschka. 
@@ -27,13 +31,10 @@ v1.0.3 (2021-09-09): Renamed to LPBF Ontology without refactoring. Entities adde
 v1.0.2 (2021-08-03): Several Classes for the LPBF process at fem were added.
 v1.0.1 (2020-12-14): D10, D50, D90 were added.</obo:IAO_0000232>
         <mid:BWMD_00834 xml:lang="en">Martin Huschka (Fraunhofer EMI)</mid:BWMD_00834>
+        <mid:BWMD_00834 xml:lang="en">Martin Jäcklein (Fraunhofer EMI)</mid:BWMD_00834>
         <rdfs:comment xml:lang="en">The LPBF Ontology can be used to describe the additive manufacturing of a component via Laser Powder Bed Fusion (LPBF) / Selective Laser Melting (SLM). The ontology builds on BFO2.0 and BWMD_mid and has been developed to be used in conjunction with the digital workflows provided by Fraunhofer IWM. If possible, the terminology within this ontology was used as provided by ISO/ASTM 52900:2015. Historically, it was created as LPBFO ontology; an ontology that described the SLM process at Fraunhofer EMI. However, it is now being used for other applications as well, some leftovers named EMISLM might still be apparent until being updated.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">v1.1.9</owl:versionInfo>
-        <rdfs:comment xml:lang="en">Contact:
-Martin Jäcklein
-Fraunhofer Institute for High-Speed Dynamics , Ernst-Mach-Institut, EMI
-Ernst-Zermelo-Strasse 4, 79104 Freiburg , Germany
-Martin.Huschka@EMI.Fraunhofer.de</rdfs:comment>
+        <owl:versionInfo xml:lang="en">v1.1.10</owl:versionInfo>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-14</terms:modified>
         <rdfs:comment xml:lang="en">Contact:
 Martin Huschka 
 Fraunhofer Institute for High-Speed Dynamics , Ernst-Mach-Institut, EMI
